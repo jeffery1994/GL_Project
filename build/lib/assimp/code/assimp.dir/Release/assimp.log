@@ -1,0 +1,537 @@
+﻿  Building Custom Rule E:/Global-illumination/GL_Project/lib/assimp/code/CMakeLists.txt
+  CMake does not need to re-run because E:/Global-illumination/GL_Project/build/lib/assimp/code/CMakeFiles/generate.stamp is up-to-date.
+  Assimp.cpp
+  BaseImporter.cpp
+  BaseProcess.cpp
+  PostStepRegistry.cpp
+  ImporterRegistry.cpp
+  DefaultIOStream.cpp
+  DefaultIOSystem.cpp
+  Importer.cpp
+e:\global-illumination\gl_project\lib\assimp\code\importer.cpp(654): warning C4267: “=”: 从“size_t”转换到“uint32_t”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\importer.cpp(785): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\importer.cpp(820): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  SGSpatialSort.cpp
+e:\global-illumination\gl_project\lib\assimp\code\irrxmlwrapper.h(95): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据 (编译源文件 E:\Global-illumination\GL_Project\lib\assimp\code\ImporterRegistry.cpp)
+e:\global-illumination\gl_project\lib\assimp\code\irrxmlwrapper.h(120): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据 (编译源文件 E:\Global-illumination\GL_Project\lib\assimp\code\ImporterRegistry.cpp)
+  VertexTriangleAdjacency.cpp
+  SpatialSort.cpp
+e:\global-illumination\gl_project\lib\assimp\code\spatialsort.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  SceneCombiner.cpp
+  ScenePreprocessor.cpp
+e:\global-illumination\gl_project\lib\assimp\code\spatialsort.cpp(112): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  SkeletonMeshBuilder.cpp
+  SplitByBoneCountProcess.cpp
+e:\global-illumination\gl_project\lib\assimp\code\scenecombiner.cpp(92): warning C4267: “参数”: 从“size_t”转换到“uint32_t”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\scenecombiner.cpp(116): warning C4267: “参数”: 从“size_t”转换到“uint32_t”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\scenecombiner.cpp(134): warning C4267: “参数”: 从“size_t”转换到“uint32_t”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\scenecombiner.cpp(325): warning C4267: “参数”: 从“size_t”转换到“uint32_t”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\scenecombiner.cpp(487): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  StandardShapes.cpp
+  TargetAnimation.cpp
+e:\global-illumination\gl_project\lib\assimp\code\skeletonmeshbuilder.cpp(86): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\skeletonmeshbuilder.cpp(86): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\skeletonmeshbuilder.cpp(109): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\skeletonmeshbuilder.cpp(171): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\skeletonmeshbuilder.cpp(209): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\skeletonmeshbuilder.cpp(216): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\skeletonmeshbuilder.cpp(241): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  RemoveComments.cpp
+e:\global-illumination\gl_project\lib\assimp\code\splitbybonecountprocess.cpp(138): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\splitbybonecountprocess.cpp(243): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\splitbybonecountprocess.cpp(244): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\splitbybonecountprocess.cpp(255): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\splitbybonecountprocess.cpp(261): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\splitbybonecountprocess.cpp(280): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\splitbybonecountprocess.cpp(293): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\splitbybonecountprocess.cpp(298): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\splitbybonecountprocess.cpp(369): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\splitbybonecountprocess.cpp(394): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\targetanimation.cpp(103): warning C4267: “参数”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\targetanimation.cpp(104): warning C4267: “参数”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+e:\program\visual studio\vc\tools\msvc\14.14.26428\include\xutility(2443): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据 (编译源文件 E:\Global-illumination\GL_Project\lib\assimp\code\SplitByBoneCountProcess.cpp)
+  e:\program\visual studio\vc\tools\msvc\14.14.26428\include\xutility(2462): note: 参见对正在编译的函数 模板 实例化“_OutIt std::_Copy_unchecked1<_InIt,_OutIt>(_InIt,_InIt,_OutIt,std::_General_ptr_iterator_tag)”的引用
+          with
+          [
+              _OutIt=unsigned int *,
+              _InIt=unsigned __int64 *
+          ] (编译源文件 E:\Global-illumination\GL_Project\lib\assimp\code\SplitByBoneCountProcess.cpp)
+  e:\program\visual studio\vc\tools\msvc\14.14.26428\include\xutility(2475): note: 参见对正在编译的函数 模板 实例化“_OutIt std::_Copy_unchecked<unsigned __int64*,_Iter>(_InIt,_InIt,_OutIt)”的引用
+          with
+          [
+              _OutIt=unsigned int *,
+              _Iter=unsigned int *,
+              _InIt=unsigned __int64 *
+          ] (编译源文件 E:\Global-illumination\GL_Project\lib\assimp\code\SplitByBoneCountProcess.cpp)
+  e:\program\visual studio\vc\tools\msvc\14.14.26428\include\xutility(2484): note: 参见对正在编译的函数 模板 实例化“_OutIt std::_Copy_no_deprecate<_InIt,_OutIt>(_InIt,_InIt,_OutIt)”的引用
+          with
+          [
+              _OutIt=unsigned int *,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<size_t>>>
+          ] (编译源文件 E:\Global-illumination\GL_Project\lib\assimp\code\SplitByBoneCountProcess.cpp)
+  e:\global-illumination\gl_project\lib\assimp\code\splitbybonecountprocess.cpp(396): note: 参见对正在编译的函数 模板 实例化“_OutIt *std::copy<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,unsigned int*>(_InIt,_InIt,_OutIt)”的引用
+          with
+          [
+              _OutIt=unsigned int *,
+              _Ty=size_t,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<size_t>>>
+          ]
+  Subdivision.cpp
+  Bitmap.cpp
+  Version.cpp
+  DefaultLogger.cpp
+  Exporter.cpp
+  AssimpCExport.cpp
+e:\global-illumination\gl_project\lib\assimp\code\subdivision.cpp(194): warning C4267: “参数”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+  CalcTangentsProcess.cpp
+  ComputeUVMappingProcess.cpp
+  ConvertToLHProcess.cpp
+  FindDegenerates.cpp
+  FindInstancesProcess.cpp
+  FindInvalidDataProcess.cpp
+  FixNormalsStep.cpp
+  GenFaceNormalsProcess.cpp
+  GenVertexNormalsProcess.cpp
+  PretransformVertices.cpp
+  ImproveCacheLocality.cpp
+e:\global-illumination\gl_project\lib\assimp\code\pretransformvertices.cpp(400): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\pretransformvertices.cpp(486): warning C4267: “+=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  JoinVerticesProcess.cpp
+  LimitBoneWeightsProcess.cpp
+  RemoveRedundantMaterials.cpp
+  RemoveVCProcess.cpp
+  SortByPTypeProcess.cpp
+  SplitLargeMeshes.cpp
+e:\global-illumination\gl_project\lib\assimp\code\limitboneweightsprocess.cpp(131): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\limitboneweightsprocess.cpp(133): warning C4267: “+=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  TextureTransform.cpp
+  TriangulateProcess.cpp
+  ValidateDataStructure.cpp
+  OptimizeGraph.cpp
+  OptimizeMeshes.cpp
+  DeboneProcess.cpp
+  ProcessHelper.cpp
+e:\global-illumination\gl_project\lib\assimp\code\optimizegraph.cpp(233): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\optimizegraph.cpp(241): warning C4267: “+=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\optimizemeshes.cpp(148): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\optimizemeshes.cpp(202): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  MakeVerboseFormat.cpp
+e:\global-illumination\gl_project\lib\assimp\code\deboneprocess.cpp(165): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\deboneprocess.cpp(385): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\deboneprocess.cpp(393): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\deboneprocess.cpp(407): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\deboneprocess.cpp(420): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  MaterialSystem.cpp
+  StepExporter.cpp
+e:\program\visual studio\vc\tools\msvc\14.14.26428\include\utility(203): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据 (编译源文件 E:\Global-illumination\GL_Project\lib\assimp\code\DeboneProcess.cpp)
+  e:\global-illumination\gl_project\lib\assimp\code\deboneprocess.cpp(140): note: 参见对正在编译的函数 模板 实例化“std::pair<unsigned int,aiNode *>::pair<unsigned __int64,aiNode*&,0>(_Other1 &&,_Other2) noexcept”的引用
+          with
+          [
+              _Other1=unsigned __int64,
+              _Other2=aiNode *&
+          ]
+  e:\global-illumination\gl_project\lib\assimp\code\deboneprocess.cpp(140): note: 参见对正在编译的函数 模板 实例化“std::pair<unsigned int,aiNode *>::pair<unsigned __int64,aiNode*&,0>(_Other1 &&,_Other2) noexcept”的引用
+          with
+          [
+              _Other1=unsigned __int64,
+              _Other2=aiNode *&
+          ]
+  3DSConverter.cpp
+e:\global-illumination\gl_project\lib\assimp\code\processhelper.cpp(305): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\processhelper.cpp(317): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\processhelper.cpp(318): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\processhelper.cpp(329): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\processhelper.cpp(334): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  3DSLoader.cpp
+e:\global-illumination\gl_project\lib\assimp\code\materialsystem.cpp(522): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\materialsystem.cpp(530): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\3dsconverter.cpp(692): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\3dsconverter.cpp(692): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\3dsconverter.cpp(744): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  3DSExporter.cpp
+  ACLoader.cpp
+  ASELoader.cpp
+  ASEParser.cpp
+  AssbinExporter.cpp
+e:\global-illumination\gl_project\lib\assimp\code\3dsexporter.cpp(88): warning C4267: “参数”: 从“size_t”转换到“uint32_t”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\assbinexporter.cpp(741): warning C4267: “初始化”: 从“size_t”转换到“uLongf”，可能丢失数据
+  AssbinLoader.cpp
+e:\global-illumination\gl_project\lib\assimp\code\assbinloader.cpp(663): warning C4267: “初始化”: 从“size_t”转换到“uLongf”，可能丢失数据
+  AssxmlExporter.cpp
+  B3DImporter.cpp
+  BVHLoader.cpp
+  ColladaLoader.cpp
+  ColladaParser.cpp
+  ColladaExporter.cpp
+e:\global-illumination\gl_project\lib\assimp\code\bvhloader.cpp(239): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\bvhloader.cpp(445): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\b3dimporter.cpp(333): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\b3dimporter.cpp(406): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\b3dimporter.cpp(464): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\b3dimporter.cpp(469): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\b3dimporter.cpp(474): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\b3dimporter.cpp(508): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\b3dimporter.cpp(523): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\b3dimporter.cpp(546): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\b3dimporter.cpp(549): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\b3dimporter.cpp(647): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\b3dimporter.cpp(657): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\b3dimporter.cpp(669): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\b3dimporter.cpp(673): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\b3dimporter.cpp(680): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\b3dimporter.cpp(683): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  DXFLoader.cpp
+  CSMLoader.cpp
+e:\global-illumination\gl_project\lib\assimp\code\irrxmlwrapper.h(95): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据 (编译源文件 E:\Global-illumination\GL_Project\lib\assimp\code\ColladaParser.cpp)
+e:\global-illumination\gl_project\lib\assimp\code\irrxmlwrapper.h(120): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据 (编译源文件 E:\Global-illumination\GL_Project\lib\assimp\code\ColladaParser.cpp)
+e:\global-illumination\gl_project\lib\assimp\code\irrxmlwrapper.h(95): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据 (编译源文件 E:\Global-illumination\GL_Project\lib\assimp\code\ColladaLoader.cpp)
+e:\global-illumination\gl_project\lib\assimp\code\irrxmlwrapper.h(120): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据 (编译源文件 E:\Global-illumination\GL_Project\lib\assimp\code\ColladaLoader.cpp)
+e:\global-illumination\gl_project\lib\assimp\code\colladaexporter.cpp(525): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\colladaexporter.cpp(808): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\colladaexporter.cpp(818): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\colladaexporter.cpp(830): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\colladaexporter.cpp(835): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  HMPLoader.cpp
+e:\global-illumination\gl_project\lib\assimp\code\colladaloader.cpp(236): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\colladaparser.cpp(2354): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\colladaloader.cpp(503): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\colladaloader.cpp(550): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\colladaloader.cpp(572): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\colladaloader.cpp(631): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\colladaloader.cpp(637): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\colladaloader.cpp(640): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\colladaloader.cpp(707): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\colladaloader.cpp(721): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\colladaloader.cpp(745): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\colladaloader.cpp(795): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\colladaloader.cpp(808): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\colladaloader.cpp(821): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\colladaloader.cpp(834): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\colladaloader.cpp(847): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\colladaloader.cpp(888): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\colladaloader.cpp(920): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\csmloader.cpp(182): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\colladaloader.cpp(1185): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\colladaloader.cpp(1186): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\colladaloader.cpp(1187): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\colladaloader.cpp(1215): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  IRRLoader.cpp
+e:\global-illumination\gl_project\lib\assimp\code\colladaloader.cpp(1491): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\colladaloader.cpp(1497): warning C4267: “参数”: 从“size_t”转换到“int32_t”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\dxfloader.cpp(227): warning C4267: “+=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\dxfloader.cpp(228): warning C4267: “+=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\dxfloader.cpp(300): warning C4267: “+=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\dxfloader.cpp(709): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\dxfloader.cpp(910): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\irrxmlwrapper.h(95): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据 (编译源文件 E:\Global-illumination\GL_Project\lib\assimp\code\IRRLoader.cpp)
+e:\global-illumination\gl_project\lib\assimp\code\irrxmlwrapper.h(120): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据 (编译源文件 E:\Global-illumination\GL_Project\lib\assimp\code\IRRLoader.cpp)
+e:\program\visual studio\vc\tools\msvc\14.14.26428\include\numeric(26): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据 (编译源文件 E:\Global-illumination\GL_Project\lib\assimp\code\ColladaLoader.cpp)
+  e:\program\visual studio\vc\tools\msvc\14.14.26428\include\numeric(36): note: 参见对正在编译的函数 模板 实例化“_Ty std::accumulate<_InIt,_Ty,std::plus<void>>(const _InIt,const _InIt,_Ty,_Fn)”的引用
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<size_t>>>,
+              _Fn=std::plus<void>
+          ] (编译源文件 E:\Global-illumination\GL_Project\lib\assimp\code\ColladaLoader.cpp)
+  e:\global-illumination\gl_project\lib\assimp\code\colladaloader.cpp(569): note: 参见对正在编译的函数 模板 实例化“_Ty std::accumulate<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<unsigned __int64>>>,int>(const _InIt,const _InIt,_Ty)”的引用
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<size_t>>>
+          ]
+e:\global-illumination\gl_project\lib\assimp\code\irrloader.cpp(218): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\irrloader.cpp(226): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\irrloader.cpp(234): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\irrloader.cpp(242): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\irrloader.cpp(250): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\irrloader.cpp(258): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\irrloader.cpp(644): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\program\visual studio\vc\tools\msvc\14.14.26428\include\xutility(2443): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据 (编译源文件 E:\Global-illumination\GL_Project\lib\assimp\code\ColladaLoader.cpp)
+  e:\program\visual studio\vc\tools\msvc\14.14.26428\include\xutility(2462): note: 参见对正在编译的函数 模板 实例化“_OutIt std::_Copy_unchecked1<_InIt,_OutIt>(_InIt,_InIt,_OutIt,std::_General_ptr_iterator_tag)”的引用
+          with
+          [
+              _OutIt=unsigned int *,
+              _InIt=unsigned __int64 *
+          ] (编译源文件 E:\Global-illumination\GL_Project\lib\assimp\code\ColladaLoader.cpp)
+  e:\program\visual studio\vc\tools\msvc\14.14.26428\include\xutility(2475): note: 参见对正在编译的函数 模板 实例化“_OutIt std::_Copy_unchecked<unsigned __int64*,_Iter>(_InIt,_InIt,_OutIt)”的引用
+          with
+          [
+              _OutIt=unsigned int *,
+              _Iter=unsigned int *,
+              _InIt=unsigned __int64 *
+          ] (编译源文件 E:\Global-illumination\GL_Project\lib\assimp\code\ColladaLoader.cpp)
+  e:\program\visual studio\vc\tools\msvc\14.14.26428\include\xutility(2484): note: 参见对正在编译的函数 模板 实例化“_OutIt std::_Copy_no_deprecate<_InIt,_OutIt>(_InIt,_InIt,_OutIt)”的引用
+          with
+          [
+              _OutIt=unsigned int *,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<size_t>>>
+          ] (编译源文件 E:\Global-illumination\GL_Project\lib\assimp\code\ColladaLoader.cpp)
+  e:\global-illumination\gl_project\lib\assimp\code\colladaloader.cpp(554): note: 参见对正在编译的函数 模板 实例化“_OutIt *std::copy<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,unsigned int*>(_InIt,_InIt,_OutIt)”的引用
+          with
+          [
+              _OutIt=unsigned int *,
+              _Ty=size_t,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<size_t>>>
+          ]
+  IRRMeshLoader.cpp
+  IRRShared.cpp
+  LWOAnimation.cpp
+e:\global-illumination\gl_project\lib\assimp\code\irrxmlwrapper.h(95): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据 (编译源文件 E:\Global-illumination\GL_Project\lib\assimp\code\IRRShared.cpp)
+e:\global-illumination\gl_project\lib\assimp\code\irrxmlwrapper.h(120): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据 (编译源文件 E:\Global-illumination\GL_Project\lib\assimp\code\IRRShared.cpp)
+e:\global-illumination\gl_project\lib\assimp\code\irrxmlwrapper.h(95): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据 (编译源文件 E:\Global-illumination\GL_Project\lib\assimp\code\IRRMeshLoader.cpp)
+e:\global-illumination\gl_project\lib\assimp\code\irrxmlwrapper.h(120): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据 (编译源文件 E:\Global-illumination\GL_Project\lib\assimp\code\IRRMeshLoader.cpp)
+e:\global-illumination\gl_project\lib\assimp\code\lwoanimation.cpp(563): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\lwoanimation.cpp(572): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\lwoanimation.cpp(592): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  LWOBLoader.cpp
+  LWOLoader.cpp
+  LWOMaterial.cpp
+  LWSLoader.cpp
+e:\global-illumination\gl_project\lib\assimp\code\lwoloader.cpp(430): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  MD2Loader.cpp
+e:\global-illumination\gl_project\lib\assimp\code\lwsloader.cpp(905): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  MD3Loader.cpp
+  MD5Loader.cpp
+  MD5Parser.cpp
+e:\global-illumination\gl_project\lib\assimp\code\md5loader.cpp(233): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\md5loader.cpp(233): warning C4267: “初始化”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\md5loader.cpp(234): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\md5loader.cpp(724): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\md5loader.cpp(730): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\md5loader.cpp(733): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  MDCLoader.cpp
+e:\global-illumination\gl_project\lib\assimp\code\md3loader.cpp(704): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  MDLLoader.cpp
+  MDLMaterialLoader.cpp
+  NFFLoader.cpp
+  NDOLoader.cpp
+  OFFLoader.cpp
+  ObjFileImporter.cpp
+e:\global-illumination\gl_project\lib\assimp\code\objfileimporter.cpp(308): warning C4267: “+=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\objfileimporter.cpp(311): warning C4267: “+=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ndoloader.cpp(262): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ndoloader.cpp(283): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ndoloader.cpp(292): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ndoloader.cpp(296): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  ObjFileMtlImporter.cpp
+  ObjFileParser.cpp
+  ObjExporter.cpp
+  OgreImporter.cpp
+e:\global-illumination\gl_project\lib\assimp\code\objfilemtlimporter.cpp(307): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\objfilemtlimporter.cpp(311): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\objfilemtlimporter.cpp(315): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\objfilemtlimporter.cpp(319): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\objfilemtlimporter.cpp(323): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\objfilemtlimporter.cpp(327): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\objfilemtlimporter.cpp(328): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\objfilemtlimporter.cpp(329): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\objfilemtlimporter.cpp(333): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\objfilemtlimporter.cpp(337): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\objfilemtlimporter.cpp(340): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\objfilemtlimporter.cpp(344): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\objfilemtlimporter.cpp(388): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\objfilemtlimporter.cpp(400): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\objfilemtlimporter.cpp(443): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\objfilemtlimporter.cpp(444): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\objfilemtlimporter.cpp(445): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\objfilemtlimporter.cpp(446): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\objfilemtlimporter.cpp(447): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\objfilemtlimporter.cpp(448): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\objfilemtlimporter.cpp(452): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\objfilemtlimporter.cpp(456): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\objfilemtlimporter.cpp(457): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\objfilemtlimporter.cpp(458): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  OgreStructs.cpp
+e:\global-illumination\gl_project\lib\assimp\code\objfileparser.cpp(324): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\objfileparser.cpp(324): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\objfileparser.cpp(325): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\objfileparser.cpp(325): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\objfileparser.cpp(326): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\objfileparser.cpp(326): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\objfileparser.cpp(739): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  OgreBinarySerializer.cpp
+e:\global-illumination\gl_project\lib\assimp\code\irrxmlwrapper.h(95): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据 (编译源文件 E:\Global-illumination\GL_Project\lib\assimp\code\OgreImporter.cpp)
+e:\global-illumination\gl_project\lib\assimp\code\irrxmlwrapper.h(120): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据 (编译源文件 E:\Global-illumination\GL_Project\lib\assimp\code\OgreImporter.cpp)
+e:\global-illumination\gl_project\lib\assimp\code\irrxmlwrapper.h(95): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据 (编译源文件 E:\Global-illumination\GL_Project\lib\assimp\code\OgreBinarySerializer.cpp)
+e:\global-illumination\gl_project\lib\assimp\code\irrxmlwrapper.h(120): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据 (编译源文件 E:\Global-illumination\GL_Project\lib\assimp\code\OgreBinarySerializer.cpp)
+e:\global-illumination\gl_project\lib\assimp\code\ogrestructs.cpp(278): warning C4267: “参数”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ogrebinaryserializer.cpp(486): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ogrestructs.cpp(283): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ogrestructs.cpp(324): warning C4267: “+=”: 从“size_t”转换到“uint32_t”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ogrestructs.cpp(457): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ogrestructs.cpp(469): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ogrestructs.cpp(479): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ogrestructs.cpp(491): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ogrestructs.cpp(570): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ogrestructs.cpp(602): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ogrestructs.cpp(615): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ogrestructs.cpp(663): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ogrestructs.cpp(667): warning C4267: “参数”: 从“size_t”转换到“uint32_t”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ogrestructs.cpp(702): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ogrestructs.cpp(756): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ogrestructs.cpp(768): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ogrestructs.cpp(778): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ogrestructs.cpp(790): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ogrestructs.cpp(838): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ogrestructs.cpp(873): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ogrestructs.cpp(877): warning C4267: “参数”: 从“size_t”转换到“uint32_t”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ogrestructs.cpp(902): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ogrestructs.cpp(956): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ogrestructs.cpp(1097): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ogrestructs.cpp(1120): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ogrestructs.cpp(1156): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ogrestructs.cpp(1157): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ogrestructs.cpp(1158): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  OgreXmlSerializer.cpp
+  OgreMaterial.cpp
+  OpenGEXExporter.cpp
+  OpenGEXImporter.cpp
+e:\global-illumination\gl_project\lib\assimp\code\irrxmlwrapper.h(95): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据 (编译源文件 E:\Global-illumination\GL_Project\lib\assimp\code\OgreXmlSerializer.cpp)
+e:\global-illumination\gl_project\lib\assimp\code\irrxmlwrapper.h(120): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据 (编译源文件 E:\Global-illumination\GL_Project\lib\assimp\code\OgreXmlSerializer.cpp)
+e:\global-illumination\gl_project\lib\assimp\code\ogrexmlserializer.cpp(626): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  PlyLoader.cpp
+e:\global-illumination\gl_project\lib\assimp\code\ogrematerial.cpp(74): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ogrematerial.cpp(80): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ogrematerial.cpp(96): warning C4267: “参数”: 从“size_t”转换到“uint16_t”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ogrematerial.cpp(102): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ogrematerial.cpp(113): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  PlyParser.cpp
+e:\global-illumination\gl_project\lib\assimp\code\opengeximporter.cpp(441): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\opengeximporter.cpp(698): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\opengeximporter.cpp(700): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\opengeximporter.cpp(703): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\opengeximporter.cpp(849): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\opengeximporter.cpp(870): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\opengeximporter.cpp(893): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  PlyExporter.cpp
+  MS3DLoader.cpp
+e:\global-illumination\gl_project\lib\assimp\code\ms3dloader.cpp(426): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ms3dloader.cpp(486): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  COBLoader.cpp
+  BlenderLoader.cpp
+  BlenderDNA.cpp
+  BlenderScene.cpp
+  BlenderModifier.cpp
+  BlenderBMesh.cpp
+e:\global-illumination\gl_project\lib\assimp\code\cobloader.cpp(187): warning C4267: “+=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\blenderloader.cpp(423): warning C4267: “参数”: 从“size_t”转换到“int32_t”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\blenderloader.cpp(1083): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.h(161): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据 (编译源文件 E:\Global-illumination\GL_Project\lib\assimp\code\BlenderBMesh.cpp)
+e:\global-illumination\gl_project\lib\assimp\code\blenderbmesh.cpp(183): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  BlenderTessellator.cpp
+  IFCLoader.cpp
+  IFCReaderGen.cpp
+  IFCUtil.cpp
+  IFCGeometry.cpp
+  IFCMaterial.cpp
+e:\global-illumination\gl_project\lib\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.h(161): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据 (编译源文件 E:\Global-illumination\GL_Project\lib\assimp\code\BlenderTessellator.cpp)
+e:\global-illumination\gl_project\lib\assimp\code\ifcutil.cpp(183): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ifcutil.cpp(551): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ifcutil.cpp(567): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  IFCProfile.cpp
+e:\global-illumination\gl_project\lib\assimp\code\ifcloader.cpp(711): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  IFCCurve.cpp
+e:\global-illumination\gl_project\lib\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.h(161): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据 (编译源文件 E:\Global-illumination\GL_Project\lib\assimp\code\IFCGeometry.cpp)
+e:\global-illumination\gl_project\lib\assimp\contrib\clipper\clipper.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 E:\Global-illumination\GL_Project\lib\assimp\code\IFCGeometry.cpp)
+e:\global-illumination\gl_project\lib\assimp\code\ifcgeometry.cpp(73): warning C4267: “参数”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ifcgeometry.cpp(183): warning C4267: “参数”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ifcgeometry.cpp(308): warning C4267: “参数”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ifcgeometry.cpp(309): warning C4267: “参数”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ifcgeometry.cpp(641): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ifcgeometry.cpp(668): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ifcgeometry.cpp(813): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ifcgeometry.cpp(832): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  IFCBoolean.cpp
+e:\global-illumination\gl_project\lib\assimp\code\ifcboolean.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\global-illumination\gl_project\lib\assimp\code\ifcmaterial.cpp(162): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ifcprofile.cpp(62): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ifcprofile.cpp(83): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ifcboolean.cpp(112): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ifcboolean.cpp(135): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ifcboolean.cpp(592): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  IFCOpenings.cpp
+  STEPFileReader.cpp
+  STEPFileEncoding.cpp
+  XGLLoader.cpp
+  FBXImporter.cpp
+  FBXParser.cpp
+e:\global-illumination\gl_project\lib\assimp\code\irrxmlwrapper.h(95): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据 (编译源文件 E:\Global-illumination\GL_Project\lib\assimp\code\XGLLoader.cpp)
+e:\global-illumination\gl_project\lib\assimp\code\irrxmlwrapper.h(120): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据 (编译源文件 E:\Global-illumination\GL_Project\lib\assimp\code\XGLLoader.cpp)
+e:\global-illumination\gl_project\lib\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.h(161): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据 (编译源文件 E:\Global-illumination\GL_Project\lib\assimp\code\IFCOpenings.cpp)
+e:\global-illumination\gl_project\lib\assimp\contrib\clipper\clipper.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 E:\Global-illumination\GL_Project\lib\assimp\code\IFCOpenings.cpp)
+  FBXTokenizer.cpp
+e:\global-illumination\gl_project\lib\assimp\code\xglloader.cpp(714): warning C4267: “return”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ifcopenings.cpp(367): warning C4267: “参数”: 从“size_t”转换到“const unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\ifcopenings.cpp(552): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\fbxparser.cpp(578): warning C4267: “=”: 从“size_t”转换到“uInt”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\fbximporter.cpp(167): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  FBXConverter.cpp
+  FBXUtil.cpp
+  FBXDocument.cpp
+  FBXProperties.cpp
+  FBXMeshGeometry.cpp
+e:\global-illumination\gl_project\lib\assimp\code\fbxconverter.cpp(763): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\fbxconverter.cpp(2670): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\fbxconverter.cpp(2670): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+  FBXMaterial.cpp
+  FBXModel.cpp
+  FBXAnimation.cpp
+  FBXNodeAttribute.cpp
+  FBXDeformer.cpp
+  FBXBinaryTokenizer.cpp
+  FBXDocumentUtil.cpp
+  Q3DLoader.cpp
+  Q3BSPFileParser.cpp
+  Q3BSPFileImporter.cpp
+  Q3BSPZipArchive.cpp
+  RawLoader.cpp
+  SMDLoader.cpp
+e:\global-illumination\gl_project\lib\assimp\code\smdloader.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  STLLoader.cpp
+  STLExporter.cpp
+  TerragenLoader.cpp
+e:\global-illumination\gl_project\lib\assimp\code\q3bspziparchive.cpp(77): warning C4267: “return”: 从“size_t”转换到“uLong”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\q3bspziparchive.cpp(83): warning C4267: “return”: 从“size_t”转换到“uLong”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\q3bspziparchive.cpp(89): warning C4267: “return”: 从“size_t”转换到“long”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\stlloader.cpp(250): warning C4244: “参数”: 从“__int64”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\stlloader.cpp(372): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\stlloader.cpp(373): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\q3bspfileimporter.cpp(342): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\q3bspfileimporter.cpp(349): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\q3bspfileimporter.cpp(376): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\q3bspfileimporter.cpp(378): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\q3bspfileimporter.cpp(527): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\q3bspfileimporter.cpp(661): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\q3bspfileimporter.cpp(675): warning C4267: “参数”: 从“size_t”转换到“int32_t”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\code\q3bspfileimporter.cpp(733): warning C4267: “参数”: 从“size_t”转换到“int32_t”，可能丢失数据
+  UnrealLoader.cpp
+  XFileImporter.cpp
+  XFileParser.cpp
+e:\global-illumination\gl_project\lib\assimp\code\unrealloader.cpp(339): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  XFileExporter.cpp
+  irrXML.cpp
+e:\global-illumination\gl_project\lib\assimp\contrib\irrxml\irrstring.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 E:\Global-illumination\GL_Project\lib\assimp\contrib\irrXML\irrXML.cpp)
+  shapes.cc
+  advancing_front.cc
+  cdt.cc
+e:\global-illumination\gl_project\lib\assimp\code\xfileimporter.cpp(288): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\global-illumination\gl_project\lib\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.h(161): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据 (编译源文件 E:\Global-illumination\GL_Project\lib\assimp\contrib\poly2tri\poly2tri\sweep\cdt.cc)
+  sweep.cc
+  sweep_context.cc
+  clipper.cpp
+e:\global-illumination\gl_project\lib\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.h(161): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据 (编译源文件 E:\Global-illumination\GL_Project\lib\assimp\contrib\poly2tri\poly2tri\sweep\sweep.cc)
+e:\global-illumination\gl_project\lib\assimp\contrib\clipper\clipper.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\global-illumination\gl_project\lib\assimp\contrib\clipper\clipper.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (编译源文件 E:\Global-illumination\GL_Project\lib\assimp\contrib\clipper\clipper.cpp)
+  OpenDDLParser.cpp
+e:\global-illumination\gl_project\lib\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.h(161): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据 (编译源文件 E:\Global-illumination\GL_Project\lib\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.cc)
+e:\global-illumination\gl_project\lib\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.cc(99): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  DDLNode.cpp
+  OpenDDLCommon.cpp
+  OpenDDLExport.cpp
+  Value.cpp
+e:\global-illumination\gl_project\lib\assimp\contrib\openddlparser\code\openddlexport.cpp(261): warning C4477: “sprintf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+  e:\global-illumination\gl_project\lib\assimp\contrib\openddlparser\code\openddlexport.cpp(261): note: 请考虑在格式字符串中使用“%zd”
+  ConvertUTF.c
+  ioapi.c
+  unzip.c
+  assimp.vcxproj -> E:\Global-illumination\GL_Project\build\lib\assimp\code\Release\assimp-vc130-mt.lib

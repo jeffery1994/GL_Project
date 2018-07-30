@@ -1,0 +1,212 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: E:/Global-illumination/GL_Project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:/Program/Visual Studio/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_3dda0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.7.180.61344
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/7/30 22:33:50。
+节点 1 上的项目“E:\Global-illumination\GL_Project\build\CMakeFiles\CMakeTmp\cmTC_3dda0.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_3dda0.dir\Debug\”。
+  正在创建目录“E:\Global-illumination\GL_Project\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_3dda0.dir\Debug\cmTC_3dda0.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_3dda0.dir\Debug\cmTC_3dda0.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  E:\Program\Visual Studio\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3dda0.dir\Debug\\" /Fd"cmTC_3dda0.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "E:\Global-illumination\GL_Project\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.14.26433 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3dda0.dir\Debug\\" /Fd"cmTC_3dda0.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "E:\Global-illumination\GL_Project\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  
+e:\global-illumination\gl_project\build\cmakefiles\cmaketmp\checkincludefile.c(1): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [E:\Global-illumination\GL_Project\build\CMakeFiles\CMakeTmp\cmTC_3dda0.vcxproj]
+已完成生成项目“E:\Global-illumination\GL_Project\build\CMakeFiles\CMakeTmp\cmTC_3dda0.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“E:\Global-illumination\GL_Project\build\CMakeFiles\CMakeTmp\cmTC_3dda0.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  e:\global-illumination\gl_project\build\cmakefiles\cmaketmp\checkincludefile.c(1): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [E:\Global-illumination\GL_Project\build\CMakeFiles\CMakeTmp\cmTC_3dda0.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.44
+
+
+Determining size of off64_t failed with the following output:
+Change Dir: E:/Global-illumination/GL_Project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:/Program/Visual Studio/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_7d1c1.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.7.180.61344
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/7/30 22:33:54。
+节点 1 上的项目“E:\Global-illumination\GL_Project\build\CMakeFiles\CMakeTmp\cmTC_7d1c1.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_7d1c1.dir\Debug\”。
+  正在创建目录“E:\Global-illumination\GL_Project\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_7d1c1.dir\Debug\cmTC_7d1c1.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_7d1c1.dir\Debug\cmTC_7d1c1.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  E:\Program\Visual Studio\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7d1c1.dir\Debug\\" /Fd"cmTC_7d1c1.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "E:\Global-illumination\GL_Project\build\CMakeFiles\CheckTypeSize\OFF64_T.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.14.26433 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7d1c1.dir\Debug\\" /Fd"cmTC_7d1c1.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "E:\Global-illumination\GL_Project\build\CMakeFiles\CheckTypeSize\OFF64_T.c"
+  OFF64_T.c
+  
+e:\global-illumination\gl_project\build\cmakefiles\checktypesize\off64_t.c(25): error C2065: “off64_t”: 未声明的标识符 [E:\Global-illumination\GL_Project\build\CMakeFiles\CMakeTmp\cmTC_7d1c1.vcxproj]
+e:\global-illumination\gl_project\build\cmakefiles\checktypesize\off64_t.c(26): error C2065: “off64_t”: 未声明的标识符 [E:\Global-illumination\GL_Project\build\CMakeFiles\CMakeTmp\cmTC_7d1c1.vcxproj]
+e:\global-illumination\gl_project\build\cmakefiles\checktypesize\off64_t.c(27): error C2065: “off64_t”: 未声明的标识符 [E:\Global-illumination\GL_Project\build\CMakeFiles\CMakeTmp\cmTC_7d1c1.vcxproj]
+e:\global-illumination\gl_project\build\cmakefiles\checktypesize\off64_t.c(28): error C2065: “off64_t”: 未声明的标识符 [E:\Global-illumination\GL_Project\build\CMakeFiles\CMakeTmp\cmTC_7d1c1.vcxproj]
+e:\global-illumination\gl_project\build\cmakefiles\checktypesize\off64_t.c(29): error C2065: “off64_t”: 未声明的标识符 [E:\Global-illumination\GL_Project\build\CMakeFiles\CMakeTmp\cmTC_7d1c1.vcxproj]
+已完成生成项目“E:\Global-illumination\GL_Project\build\CMakeFiles\CMakeTmp\cmTC_7d1c1.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“E:\Global-illumination\GL_Project\build\CMakeFiles\CMakeTmp\cmTC_7d1c1.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  e:\global-illumination\gl_project\build\cmakefiles\checktypesize\off64_t.c(25): error C2065: “off64_t”: 未声明的标识符 [E:\Global-illumination\GL_Project\build\CMakeFiles\CMakeTmp\cmTC_7d1c1.vcxproj]
+  e:\global-illumination\gl_project\build\cmakefiles\checktypesize\off64_t.c(26): error C2065: “off64_t”: 未声明的标识符 [E:\Global-illumination\GL_Project\build\CMakeFiles\CMakeTmp\cmTC_7d1c1.vcxproj]
+  e:\global-illumination\gl_project\build\cmakefiles\checktypesize\off64_t.c(27): error C2065: “off64_t”: 未声明的标识符 [E:\Global-illumination\GL_Project\build\CMakeFiles\CMakeTmp\cmTC_7d1c1.vcxproj]
+  e:\global-illumination\gl_project\build\cmakefiles\checktypesize\off64_t.c(28): error C2065: “off64_t”: 未声明的标识符 [E:\Global-illumination\GL_Project\build\CMakeFiles\CMakeTmp\cmTC_7d1c1.vcxproj]
+  e:\global-illumination\gl_project\build\cmakefiles\checktypesize\off64_t.c(29): error C2065: “off64_t”: 未声明的标识符 [E:\Global-illumination\GL_Project\build\CMakeFiles\CMakeTmp\cmTC_7d1c1.vcxproj]
+
+    0 个警告
+    5 个错误
+
+已用时间 00:00:00.55
+
+E:/Global-illumination/GL_Project/build/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function fseeko exists failed with the following output:
+Change Dir: E:/Global-illumination/GL_Project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:/Program/Visual Studio/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_efb89.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.7.180.61344
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/7/30 22:33:55。
+节点 1 上的项目“E:\Global-illumination\GL_Project\build\CMakeFiles\CMakeTmp\cmTC_efb89.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_efb89.dir\Debug\”。
+  正在创建目录“E:\Global-illumination\GL_Project\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_efb89.dir\Debug\cmTC_efb89.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_efb89.dir\Debug\cmTC_efb89.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  E:\Program\Visual Studio\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_efb89.dir\Debug\\" /Fd"cmTC_efb89.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "E:\Program\Cmake\share\cmake-3.12\Modules\CheckFunctionExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.14.26433 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_efb89.dir\Debug\\" /Fd"cmTC_efb89.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "E:\Program\Cmake\share\cmake-3.12\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+Link:
+  E:\Program\Visual Studio\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Global-illumination\GL_Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_efb89.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Global-illumination/GL_Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_efb89.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Global-illumination/GL_Project/build/CMakeFiles/CMakeTmp/Debug/cmTC_efb89.lib" /MACHINE:X64  /machine:x64 cmTC_efb89.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 fseeko，该符号在函数 main 中被引用 [E:\Global-illumination\GL_Project\build\CMakeFiles\CMakeTmp\cmTC_efb89.vcxproj]
+E:\Global-illumination\GL_Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_efb89.exe : fatal error LNK1120: 1 个无法解析的外部命令 [E:\Global-illumination\GL_Project\build\CMakeFiles\CMakeTmp\cmTC_efb89.vcxproj]
+已完成生成项目“E:\Global-illumination\GL_Project\build\CMakeFiles\CMakeTmp\cmTC_efb89.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“E:\Global-illumination\GL_Project\build\CMakeFiles\CMakeTmp\cmTC_efb89.vcxproj”(默认目标) (1) ->
+(Link 目标) -> 
+  CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 fseeko，该符号在函数 main 中被引用 [E:\Global-illumination\GL_Project\build\CMakeFiles\CMakeTmp\cmTC_efb89.vcxproj]
+  E:\Global-illumination\GL_Project\build\CMakeFiles\CMakeTmp\Debug\cmTC_efb89.exe : fatal error LNK1120: 1 个无法解析的外部命令 [E:\Global-illumination\GL_Project\build\CMakeFiles\CMakeTmp\cmTC_efb89.vcxproj]
+
+    0 个警告
+    2 个错误
+
+已用时间 00:00:00.86
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: E:/Global-illumination/GL_Project/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:/Program/Visual Studio/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_cdf2a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.7.180.61344
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/7/30 22:33:56。
+节点 1 上的项目“E:\Global-illumination\GL_Project\build\CMakeFiles\CMakeTmp\cmTC_cdf2a.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_cdf2a.dir\Debug\”。
+  正在创建目录“E:\Global-illumination\GL_Project\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_cdf2a.dir\Debug\cmTC_cdf2a.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_cdf2a.dir\Debug\cmTC_cdf2a.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  E:\Program\Visual Studio\VC\Tools\MSVC\14.14.26428\bin\HostX86\x64\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cdf2a.dir\Debug\\" /Fd"cmTC_cdf2a.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "E:\Global-illumination\GL_Project\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.14.26433 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cdf2a.dir\Debug\\" /Fd"cmTC_cdf2a.dir\Debug\vc141.pdb" /Gd /TC /FC /errorReport:queue "E:\Global-illumination\GL_Project\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  
+e:\global-illumination\gl_project\build\cmakefiles\cmaketmp\checkincludefile.c(1): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [E:\Global-illumination\GL_Project\build\CMakeFiles\CMakeTmp\cmTC_cdf2a.vcxproj]
+已完成生成项目“E:\Global-illumination\GL_Project\build\CMakeFiles\CMakeTmp\cmTC_cdf2a.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“E:\Global-illumination\GL_Project\build\CMakeFiles\CMakeTmp\cmTC_cdf2a.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  e:\global-illumination\gl_project\build\cmakefiles\cmaketmp\checkincludefile.c(1): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [E:\Global-illumination\GL_Project\build\CMakeFiles\CMakeTmp\cmTC_cdf2a.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.57
+
+

@@ -1,0 +1,105 @@
+﻿  Building Custom Rule E:/Global-illumination/GL_Project/CMakeLists.txt
+  CMake does not need to re-run because E:/Global-illumination/GL_Project/build/CMakeFiles/generate.stamp is up-to-date.
+  Camera.cpp
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec2.hpp(73): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec2.hpp(236): note: 参见对正在编译的 类 模板 实例化 "glm::tvec2<T,P>" 的引用
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec2.hpp(74): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec2.hpp(75): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec3.hpp(77): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec3.hpp(262): note: 参见对正在编译的 类 模板 实例化 "glm::tvec3<T,P>" 的引用
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec3.hpp(78): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec3.hpp(79): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec4.hpp(139): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec4.hpp(369): note: 参见对正在编译的 类 模板 实例化 "glm::tvec4<T,P>" 的引用
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec4.hpp(140): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec4.hpp(141): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  Controls.cpp
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec2.hpp(73): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec2.hpp(236): note: 参见对正在编译的 类 模板 实例化 "glm::tvec2<T,P>" 的引用
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec2.hpp(74): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec2.hpp(75): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec3.hpp(77): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec3.hpp(262): note: 参见对正在编译的 类 模板 实例化 "glm::tvec3<T,P>" 的引用
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec3.hpp(78): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec3.hpp(79): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec4.hpp(139): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec4.hpp(369): note: 参见对正在编译的 类 模板 实例化 "glm::tvec4<T,P>" 的引用
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec4.hpp(140): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec4.hpp(141): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+e:\global-illumination\gl_project\src\controls.cpp(30): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+e:\global-illumination\gl_project\src\controls.cpp(31): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  HighResClock.cpp
+  Material.cpp
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec2.hpp(73): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec2.hpp(236): note: 参见对正在编译的 类 模板 实例化 "glm::tvec2<T,P>" 的引用
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec2.hpp(74): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec2.hpp(75): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec3.hpp(77): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec3.hpp(262): note: 参见对正在编译的 类 模板 实例化 "glm::tvec3<T,P>" 的引用
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec3.hpp(78): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec3.hpp(79): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec4.hpp(139): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec4.hpp(369): note: 参见对正在编译的 类 模板 实例化 "glm::tvec4<T,P>" 的引用
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec4.hpp(140): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec4.hpp(141): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+e:\global-illumination\gl_project\src\material.cpp(187): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+e:\global-illumination\gl_project\src\material.cpp(192): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+e:\global-illumination\gl_project\src\material.cpp(197): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+e:\global-illumination\gl_project\src\material.cpp(202): warning C4244: “参数”: 从“int”转换到“GLfloat”，可能丢失数据
+  Mesh.cpp
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec2.hpp(73): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec2.hpp(236): note: 参见对正在编译的 类 模板 实例化 "glm::tvec2<T,P>" 的引用
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec2.hpp(74): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec2.hpp(75): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec3.hpp(77): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec3.hpp(262): note: 参见对正在编译的 类 模板 实例化 "glm::tvec3<T,P>" 的引用
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec3.hpp(78): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec3.hpp(79): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec4.hpp(139): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec4.hpp(369): note: 参见对正在编译的 类 模板 实例化 "glm::tvec4<T,P>" 的引用
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec4.hpp(140): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec4.hpp(141): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  Object.cpp
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec2.hpp(73): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec2.hpp(236): note: 参见对正在编译的 类 模板 实例化 "glm::tvec2<T,P>" 的引用
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec2.hpp(74): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec2.hpp(75): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec3.hpp(77): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec3.hpp(262): note: 参见对正在编译的 类 模板 实例化 "glm::tvec3<T,P>" 的引用
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec3.hpp(78): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec3.hpp(79): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec4.hpp(139): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec4.hpp(369): note: 参见对正在编译的 类 模板 实例化 "glm::tvec4<T,P>" 的引用
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec4.hpp(140): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec4.hpp(141): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  Shader.cpp
+  VCTApplication.cpp
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec2.hpp(73): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec2.hpp(236): note: 参见对正在编译的 类 模板 实例化 "glm::tvec2<T,P>" 的引用
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec2.hpp(74): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec2.hpp(75): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec3.hpp(77): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec3.hpp(262): note: 参见对正在编译的 类 模板 实例化 "glm::tvec3<T,P>" 的引用
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec3.hpp(78): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec3.hpp(79): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec4.hpp(139): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec4.hpp(369): note: 参见对正在编译的 类 模板 实例化 "glm::tvec4<T,P>" 的引用
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec4.hpp(140): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec4.hpp(141): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  main.cpp
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec2.hpp(73): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec2.hpp(236): note: 参见对正在编译的 类 模板 实例化 "glm::tvec2<T,P>" 的引用
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec2.hpp(74): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec2.hpp(75): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec3.hpp(77): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec3.hpp(262): note: 参见对正在编译的 类 模板 实例化 "glm::tvec3<T,P>" 的引用
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec3.hpp(78): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec3.hpp(79): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec4.hpp(139): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec4.hpp(369): note: 参见对正在编译的 类 模板 实例化 "glm::tvec4<T,P>" 的引用
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec4.hpp(140): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+e:\global-illumination\gl_project\lib\glm\glm\detail\type_vec4.hpp(141): warning C4201: 使用了非标准扩展: 无名称的结构/联合
+  正在生成代码...
+e:\global-illumination\gl_project\src\shader.cpp(103): warning C4701: 使用了可能未初始化的局部变量“geometryShader”
+    正在创建库 E:/Global-illumination/GL_Project/build/Release/VCT.lib 和对象 E:/Global-illumination/GL_Project/build/Release/VCT.exp
+  VCT.vcxproj -> E:\Global-illumination\GL_Project\build\VCT\Release\VCT.exe
