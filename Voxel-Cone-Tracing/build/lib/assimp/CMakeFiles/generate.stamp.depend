@@ -1,0 +1,22 @@
+# CMake generation dependency list for this directory.
+G:/GL/Voxel-Cone-Tracing/lib/assimp/CMakeLists.txt
+G:/GL/Voxel-Cone-Tracing/lib/assimp/revision.h.in
+D:/CMake/share/cmake-3.10/Modules/FindPkgConfig.cmake
+D:/CMake/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake
+D:/CMake/share/cmake-3.10/Modules/FindPackageMessage.cmake
+G:/GL/Voxel-Cone-Tracing/lib/assimp/cmake-modules/PrecompiledHeader.cmake
+G:/GL/Voxel-Cone-Tracing/lib/assimp/assimp-config.cmake.in
+G:/GL/Voxel-Cone-Tracing/lib/assimp/assimp-config-version.cmake.in
+G:/GL/Voxel-Cone-Tracing/lib/assimp/cmake-modules/FindDirectX.cmake
+G:/GL/Voxel-Cone-Tracing/lib/assimp/cmake-modules/FindPkgMacros.cmake
+G:/GL/Voxel-Cone-Tracing/lib/assimp/cmake-modules/FindZLIB.cmake
+G:/GL/Voxel-Cone-Tracing/lib/assimp/cmake-modules/FindPkgMacros.cmake
+D:/CMake/share/cmake-3.10/Modules/FindPkgConfig.cmake
+D:/CMake/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake
+D:/CMake/share/cmake-3.10/Modules/FindPackageMessage.cmake
+D:/CMake/share/cmake-3.10/Modules/CheckIncludeFile.cmake
+D:/CMake/share/cmake-3.10/Modules/CheckTypeSize.cmake
+D:/CMake/share/cmake-3.10/Modules/CheckIncludeFile.cmake
+D:/CMake/share/cmake-3.10/Modules/CheckIncludeFileCXX.cmake
+D:/CMake/share/cmake-3.10/Modules/CheckFunctionExists.cmake
+G:/GL/Voxel-Cone-Tracing/lib/assimp/assimp.pc.in

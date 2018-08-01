@@ -1,0 +1,15 @@
+# CMake generation dependency list for this directory.
+G:/GL/Voxel-Cone-Tracing/lib/glfw/CMakeLists.txt
+D:/CMake/share/cmake-3.10/Modules/FindThreads.cmake
+D:/CMake/share/cmake-3.10/Modules/CheckLibraryExists.cmake
+D:/CMake/share/cmake-3.10/Modules/CheckSymbolExists.cmake
+D:/CMake/share/cmake-3.10/Modules/CheckIncludeFile.cmake
+D:/CMake/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake
+D:/CMake/share/cmake-3.10/Modules/FindPackageMessage.cmake
+D:/CMake/share/cmake-3.10/Modules/CMakePackageConfigHelpers.cmake
+D:/CMake/share/cmake-3.10/Modules/WriteBasicConfigVersionFile.cmake
+G:/GL/Voxel-Cone-Tracing/lib/glfw/src/glfw3Config.cmake.in
+D:/CMake/share/cmake-3.10/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+G:/GL/Voxel-Cone-Tracing/lib/glfw/src/glfw_config.h.in
+G:/GL/Voxel-Cone-Tracing/lib/glfw/src/glfw3.pc.in
+G:/GL/Voxel-Cone-Tracing/lib/glfw/cmake_uninstall.cmake.in

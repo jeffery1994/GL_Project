@@ -1,0 +1,4 @@
+﻿  Building Custom Rule G:/GL/Voxel-Cone-Tracing/lib/glew/CMakeLists.txt
+  CMake does not need to re-run because G:/GL/Voxel-Cone-Tracing/build/lib/glew/CMakeFiles/generate.stamp is up-to-date.
+  glew.c
+  libglewmx_static.vcxproj -> G:\GL\Voxel-Cone-Tracing\build\lib\Release\glewmx.lib

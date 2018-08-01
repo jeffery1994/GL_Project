@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CC93CB4C-818E-3218-90F9-78104AC57F32}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>G:\GL\Voxel-Cone-Tracing\include;G:\GL\Voxel-Cone-Tracing\lib\assimp\include;G:\GL\Voxel-Cone-Tracing\lib\glfw\include;G:\GL\Voxel-Cone-Tracing\lib\glew\include;G:\GL\Voxel-Cone-Tracing\lib\glew\src;G:\GL\Voxel-Cone-Tracing\lib\glm;G:\GL\Voxel-Cone-Tracing\lib\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>G:\GL\Voxel-Cone-Tracing\include;G:\GL\Voxel-Cone-Tracing\lib\assimp\include;G:\GL\Voxel-Cone-Tracing\lib\glfw\include;G:\GL\Voxel-Cone-Tracing\lib\glew\include;G:\GL\Voxel-Cone-Tracing\lib\glew\src;G:\GL\Voxel-Cone-Tracing\lib\glm;G:\GL\Voxel-Cone-Tracing\lib\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>G:\GL\Voxel-Cone-Tracing\include;G:\GL\Voxel-Cone-Tracing\lib\assimp\include;G:\GL\Voxel-Cone-Tracing\lib\glfw\include;G:\GL\Voxel-Cone-Tracing\lib\glew\include;G:\GL\Voxel-Cone-Tracing\lib\glew\src;G:\GL\Voxel-Cone-Tracing\lib\glm;G:\GL\Voxel-Cone-Tracing\lib\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>G:\GL\Voxel-Cone-Tracing\include;G:\GL\Voxel-Cone-Tracing\lib\assimp\include;G:\GL\Voxel-Cone-Tracing\lib\glfw\include;G:\GL\Voxel-Cone-Tracing\lib\glew\include;G:\GL\Voxel-Cone-Tracing\lib\glew\src;G:\GL\Voxel-Cone-Tracing\lib\glm;G:\GL\Voxel-Cone-Tracing\lib\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\GL\Voxel-Cone-Tracing\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule G:/GL/Voxel-Cone-Tracing/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\CMake\bin\cmake.exe -HG:/GL/Voxel-Cone-Tracing -BG:/GL/Voxel-Cone-Tracing/build --check-stamp-file G:/GL/Voxel-Cone-Tracing/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/GL/Voxel-Cone-Tracing/CMakeLists.txt;G:\GL\Voxel-Cone-Tracing\CMakeLists.txt;G:\GL\Voxel-Cone-Tracing\build\CMakeFiles\3.10.1\CMakeSystem.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;G:\GL\Voxel-Cone-Tracing\build\CMakeFiles\3.10.1\CMakeCCompiler.cmake;G:\GL\Voxel-Cone-Tracing\build\CMakeFiles\3.10.1\CMakeCXXCompiler.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;G:\GL\Voxel-Cone-Tracing\build\CMakeFiles\3.10.1\CMakeRCCompiler.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;G:\GL\Voxel-Cone-Tracing\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\GL\Voxel-Cone-Tracing\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule G:/GL/Voxel-Cone-Tracing/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\CMake\bin\cmake.exe -HG:/GL/Voxel-Cone-Tracing -BG:/GL/Voxel-Cone-Tracing/build --check-stamp-file G:/GL/Voxel-Cone-Tracing/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/GL/Voxel-Cone-Tracing/CMakeLists.txt;G:\GL\Voxel-Cone-Tracing\CMakeLists.txt;G:\GL\Voxel-Cone-Tracing\build\CMakeFiles\3.10.1\CMakeSystem.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;G:\GL\Voxel-Cone-Tracing\build\CMakeFiles\3.10.1\CMakeCCompiler.cmake;G:\GL\Voxel-Cone-Tracing\build\CMakeFiles\3.10.1\CMakeCXXCompiler.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;G:\GL\Voxel-Cone-Tracing\build\CMakeFiles\3.10.1\CMakeRCCompiler.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;G:\GL\Voxel-Cone-Tracing\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\GL\Voxel-Cone-Tracing\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule G:/GL/Voxel-Cone-Tracing/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\CMake\bin\cmake.exe -HG:/GL/Voxel-Cone-Tracing -BG:/GL/Voxel-Cone-Tracing/build --check-stamp-file G:/GL/Voxel-Cone-Tracing/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/GL/Voxel-Cone-Tracing/CMakeLists.txt;G:\GL\Voxel-Cone-Tracing\CMakeLists.txt;G:\GL\Voxel-Cone-Tracing\build\CMakeFiles\3.10.1\CMakeSystem.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;G:\GL\Voxel-Cone-Tracing\build\CMakeFiles\3.10.1\CMakeCCompiler.cmake;G:\GL\Voxel-Cone-Tracing\build\CMakeFiles\3.10.1\CMakeCXXCompiler.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;G:\GL\Voxel-Cone-Tracing\build\CMakeFiles\3.10.1\CMakeRCCompiler.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;G:\GL\Voxel-Cone-Tracing\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\GL\Voxel-Cone-Tracing\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule G:/GL/Voxel-Cone-Tracing/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\CMake\bin\cmake.exe -HG:/GL/Voxel-Cone-Tracing -BG:/GL/Voxel-Cone-Tracing/build --check-stamp-file G:/GL/Voxel-Cone-Tracing/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/GL/Voxel-Cone-Tracing/CMakeLists.txt;G:\GL\Voxel-Cone-Tracing\CMakeLists.txt;G:\GL\Voxel-Cone-Tracing\build\CMakeFiles\3.10.1\CMakeSystem.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;G:\GL\Voxel-Cone-Tracing\build\CMakeFiles\3.10.1\CMakeCCompiler.cmake;G:\GL\Voxel-Cone-Tracing\build\CMakeFiles\3.10.1\CMakeCXXCompiler.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;G:\GL\Voxel-Cone-Tracing\build\CMakeFiles\3.10.1\CMakeRCCompiler.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;G:\GL\Voxel-Cone-Tracing\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\GL\Voxel-Cone-Tracing\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="G:\GL\Voxel-Cone-Tracing\build\ZERO_CHECK.vcxproj">
+      <Project>{7A032ACA-7AEC-39A9-8F41-EDFE182A8772}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\GL\Voxel-Cone-Tracing\build\VCT.vcxproj">
+      <Project>{716218B2-22C4-3038-BA9C-B46E7A81E66B}</Project>
+      <Name>VCT</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\GL\Voxel-Cone-Tracing\build\lib\assimp\code\assimp.vcxproj">
+      <Project>{3D87A0C1-AC4F-3F51-85E0-8B8070F1C9A3}</Project>
+      <Name>assimp</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\GL\Voxel-Cone-Tracing\build\lib\glfw\src\glfw.vcxproj">
+      <Project>{D9E9F2CC-CE5A-3FC5-9F82-B16ECE9620F2}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\GL\Voxel-Cone-Tracing\build\lib\glew\libglew_static.vcxproj">
+      <Project>{51CF9BCF-73E0-3972-BDBE-A2F6A8C05F0D}</Project>
+      <Name>libglew_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\GL\Voxel-Cone-Tracing\build\lib\glew\libglewmx_static.vcxproj">
+      <Project>{DA955BAB-AAB7-3523-8404-BEBDC1449BD0}</Project>
+      <Name>libglewmx_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\GL\Voxel-Cone-Tracing\build\lib\assimp\contrib\zlib\zlibstatic.vcxproj">
+      <Project>{A437B55E-2F31-301D-8915-C66D228D161D}</Project>
+      <Name>zlibstatic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

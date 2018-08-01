@@ -1,0 +1,10 @@
+# CMake generation dependency list for this directory.
+G:/GL/Voxel-Cone-Tracing/lib/assimp/contrib/zlib/CMakeLists.txt
+D:/CMake/share/cmake-3.10/Modules/CheckTypeSize.cmake
+D:/CMake/share/cmake-3.10/Modules/CheckIncludeFile.cmake
+D:/CMake/share/cmake-3.10/Modules/CheckIncludeFileCXX.cmake
+D:/CMake/share/cmake-3.10/Modules/CheckFunctionExists.cmake
+D:/CMake/share/cmake-3.10/Modules/CheckIncludeFile.cmake
+D:/CMake/share/cmake-3.10/Modules/CheckCSourceCompiles.cmake
+G:/GL/Voxel-Cone-Tracing/lib/assimp/contrib/zlib/zlib.pc.cmakein
+G:/GL/Voxel-Cone-Tracing/lib/assimp/contrib/zlib/zconf.h.cmakein

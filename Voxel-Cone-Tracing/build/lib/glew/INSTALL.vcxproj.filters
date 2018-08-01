@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="G:\GL\Voxel-Cone-Tracing\build\CMakeFiles\0befb8edbe5b45b420455bd4ca2f3ebf\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{7DF85017-10F0-3907-81D6-04A3C2A79547}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

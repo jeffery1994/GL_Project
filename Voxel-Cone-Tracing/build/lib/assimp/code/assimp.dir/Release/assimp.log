@@ -1,0 +1,544 @@
+﻿  Building Custom Rule G:/GL/Voxel-Cone-Tracing/lib/assimp/code/CMakeLists.txt
+  CMake does not need to re-run because G:/GL/Voxel-Cone-Tracing/build/lib/assimp/code/CMakeFiles/generate.stamp is up-to-date.
+  Assimp.cpp
+  BaseImporter.cpp
+  BaseProcess.cpp
+  PostStepRegistry.cpp
+  ImporterRegistry.cpp
+  DefaultIOStream.cpp
+  DefaultIOSystem.cpp
+  Importer.cpp
+  SGSpatialSort.cpp
+  VertexTriangleAdjacency.cpp
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Importer.cpp(654): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Importer.cpp(785): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Importer.cpp(820): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  SpatialSort.cpp
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SpatialSort.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+g:\gl\voxel-cone-tracing\lib\assimp\code\irrXMLWrapper.h(95): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data (compiling source file G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ImporterRegistry.cpp)
+g:\gl\voxel-cone-tracing\lib\assimp\code\irrXMLWrapper.h(120): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data (compiling source file G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ImporterRegistry.cpp)
+  SceneCombiner.cpp
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SpatialSort.cpp(112): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  ScenePreprocessor.cpp
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SceneCombiner.cpp(92): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SceneCombiner.cpp(116): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SceneCombiner.cpp(134): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SceneCombiner.cpp(325): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SceneCombiner.cpp(487): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  SkeletonMeshBuilder.cpp
+  SplitByBoneCountProcess.cpp
+  StandardShapes.cpp
+  TargetAnimation.cpp
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SkeletonMeshBuilder.cpp(86): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SkeletonMeshBuilder.cpp(86): warning C4267: 'initializing': conversion from 'size_t' to 'const unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SkeletonMeshBuilder.cpp(109): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SkeletonMeshBuilder.cpp(171): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SkeletonMeshBuilder.cpp(209): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SkeletonMeshBuilder.cpp(216): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SkeletonMeshBuilder.cpp(241): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SplitByBoneCountProcess.cpp(138): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SplitByBoneCountProcess.cpp(243): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SplitByBoneCountProcess.cpp(244): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SplitByBoneCountProcess.cpp(255): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SplitByBoneCountProcess.cpp(261): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SplitByBoneCountProcess.cpp(280): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SplitByBoneCountProcess.cpp(293): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SplitByBoneCountProcess.cpp(298): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SplitByBoneCountProcess.cpp(369): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SplitByBoneCountProcess.cpp(394): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\TargetAnimation.cpp(103): warning C4267: 'argument': conversion from 'size_t' to 'const unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\TargetAnimation.cpp(104): warning C4267: 'argument': conversion from 'size_t' to 'const unsigned int', possible loss of data
+  RemoveComments.cpp
+D:\Visual Studio\VC\Tools\MSVC\14.11.25503\include\xutility(2254): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data (compiling source file G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SplitByBoneCountProcess.cpp)
+  D:\Visual Studio\VC\Tools\MSVC\14.11.25503\include\xutility(2273): note: see reference to function template instantiation '_OutIt std::_Copy_unchecked1<_InIt,_OutIt>(_InIt,_InIt,_OutIt,std::_General_ptr_iterator_tag)' being compiled
+          with
+          [
+              _OutIt=unsigned int *,
+              _InIt=unsigned __int64 *
+          ] (compiling source file G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SplitByBoneCountProcess.cpp)
+  D:\Visual Studio\VC\Tools\MSVC\14.11.25503\include\xutility(2286): note: see reference to function template instantiation '_OutIt std::_Copy_unchecked<unsigned __int64*,_Iter>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=unsigned int *,
+              _Iter=unsigned int *,
+              _InIt=unsigned __int64 *
+          ] (compiling source file G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SplitByBoneCountProcess.cpp)
+  D:\Visual Studio\VC\Tools\MSVC\14.11.25503\include\xutility(2295): note: see reference to function template instantiation '_OutIt std::_Copy_no_deprecate<_InIt,_OutIt>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=unsigned int *,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<size_t>>>
+          ] (compiling source file G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SplitByBoneCountProcess.cpp)
+  G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SplitByBoneCountProcess.cpp(396): note: see reference to function template instantiation '_OutIt *std::copy<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,unsigned int*>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=unsigned int *,
+              _Ty=::size_t,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<size_t>>>
+          ]
+  Subdivision.cpp
+  Bitmap.cpp
+  Version.cpp
+  DefaultLogger.cpp
+  Exporter.cpp
+  AssimpCExport.cpp
+  CalcTangentsProcess.cpp
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Subdivision.cpp(194): warning C4267: 'argument': conversion from 'size_t' to 'const unsigned int', possible loss of data
+  ComputeUVMappingProcess.cpp
+  ConvertToLHProcess.cpp
+  FindDegenerates.cpp
+  FindInstancesProcess.cpp
+  FindInvalidDataProcess.cpp
+  FixNormalsStep.cpp
+  GenFaceNormalsProcess.cpp
+  GenVertexNormalsProcess.cpp
+  PretransformVertices.cpp
+  ImproveCacheLocality.cpp
+  JoinVerticesProcess.cpp
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\PretransformVertices.cpp(400): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\PretransformVertices.cpp(486): warning C4267: '+=': conversion from 'size_t' to 'unsigned int', possible loss of data
+  LimitBoneWeightsProcess.cpp
+  RemoveRedundantMaterials.cpp
+  RemoveVCProcess.cpp
+  SortByPTypeProcess.cpp
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\LimitBoneWeightsProcess.cpp(131): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\LimitBoneWeightsProcess.cpp(133): warning C4267: '+=': conversion from 'size_t' to 'unsigned int', possible loss of data
+  SplitLargeMeshes.cpp
+  TextureTransform.cpp
+  TriangulateProcess.cpp
+  ValidateDataStructure.cpp
+  OptimizeGraph.cpp
+  OptimizeMeshes.cpp
+  DeboneProcess.cpp
+  ProcessHelper.cpp
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OptimizeMeshes.cpp(148): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OptimizeMeshes.cpp(202): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\DeboneProcess.cpp(165): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\DeboneProcess.cpp(385): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\DeboneProcess.cpp(393): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\DeboneProcess.cpp(407): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\DeboneProcess.cpp(420): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OptimizeGraph.cpp(233): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OptimizeGraph.cpp(241): warning C4267: '+=': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:\Visual Studio\VC\Tools\MSVC\14.11.25503\include\utility(188): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data (compiling source file G:\GL\Voxel-Cone-Tracing\lib\assimp\code\DeboneProcess.cpp)
+  G:\GL\Voxel-Cone-Tracing\lib\assimp\code\DeboneProcess.cpp(140): note: see reference to function template instantiation 'std::pair<unsigned int,aiNode *>::pair<unsigned __int64,aiNode*&,void,0>(_Other1 &&,_Other2) noexcept' being compiled
+          with
+          [
+              _Other1=unsigned __int64,
+              _Other2=aiNode *&
+          ]
+  G:\GL\Voxel-Cone-Tracing\lib\assimp\code\DeboneProcess.cpp(140): note: see reference to function template instantiation 'std::pair<unsigned int,aiNode *>::pair<unsigned __int64,aiNode*&,void,0>(_Other1 &&,_Other2) noexcept' being compiled
+          with
+          [
+              _Other1=unsigned __int64,
+              _Other2=aiNode *&
+          ]
+  MakeVerboseFormat.cpp
+  MaterialSystem.cpp
+  StepExporter.cpp
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ProcessHelper.cpp(305): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ProcessHelper.cpp(317): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ProcessHelper.cpp(318): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ProcessHelper.cpp(329): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ProcessHelper.cpp(334): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  3DSConverter.cpp
+  3DSLoader.cpp
+  3DSExporter.cpp
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MaterialSystem.cpp(522): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MaterialSystem.cpp(530): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  ACLoader.cpp
+  ASELoader.cpp
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\3DSConverter.cpp(692): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\3DSConverter.cpp(692): warning C4267: 'initializing': conversion from 'size_t' to 'const unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\3DSConverter.cpp(744): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+  ASEParser.cpp
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\3DSExporter.cpp(88): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data
+  AssbinExporter.cpp
+  AssbinLoader.cpp
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\AssbinExporter.cpp(741): warning C4267: 'initializing': conversion from 'size_t' to 'uLongf', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\AssbinLoader.cpp(663): warning C4267: 'initializing': conversion from 'size_t' to 'uLongf', possible loss of data
+  AssxmlExporter.cpp
+  B3DImporter.cpp
+  BVHLoader.cpp
+  ColladaLoader.cpp
+  ColladaParser.cpp
+  ColladaExporter.cpp
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BVHLoader.cpp(239): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BVHLoader.cpp(445): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\B3DImporter.cpp(333): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\B3DImporter.cpp(406): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\B3DImporter.cpp(464): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\B3DImporter.cpp(469): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\B3DImporter.cpp(474): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\B3DImporter.cpp(508): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\B3DImporter.cpp(523): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\B3DImporter.cpp(546): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\B3DImporter.cpp(549): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\B3DImporter.cpp(647): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\B3DImporter.cpp(657): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\B3DImporter.cpp(669): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+g:\gl\voxel-cone-tracing\lib\assimp\code\irrXMLWrapper.h(95): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data (compiling source file G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaLoader.cpp)
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\B3DImporter.cpp(673): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\B3DImporter.cpp(680): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+g:\gl\voxel-cone-tracing\lib\assimp\code\irrXMLWrapper.h(120): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data (compiling source file G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaLoader.cpp)
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\B3DImporter.cpp(683): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+  DXFLoader.cpp
+g:\gl\voxel-cone-tracing\lib\assimp\code\irrXMLWrapper.h(95): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data (compiling source file G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaParser.cpp)
+g:\gl\voxel-cone-tracing\lib\assimp\code\irrXMLWrapper.h(120): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data (compiling source file G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaParser.cpp)
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaExporter.cpp(525): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  CSMLoader.cpp
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaLoader.cpp(236): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaExporter.cpp(808): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaExporter.cpp(818): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaExporter.cpp(830): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaExporter.cpp(835): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaLoader.cpp(503): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaLoader.cpp(550): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaLoader.cpp(572): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaLoader.cpp(631): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaLoader.cpp(637): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaLoader.cpp(640): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaLoader.cpp(707): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaLoader.cpp(721): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaLoader.cpp(745): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaLoader.cpp(795): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaLoader.cpp(808): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaLoader.cpp(821): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaLoader.cpp(834): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaLoader.cpp(847): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaLoader.cpp(888): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaLoader.cpp(920): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+  HMPLoader.cpp
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaParser.cpp(2354): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaLoader.cpp(1185): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaLoader.cpp(1186): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaLoader.cpp(1187): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaLoader.cpp(1215): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaLoader.cpp(1491): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaLoader.cpp(1497): warning C4267: 'argument': conversion from 'size_t' to 'int32_t', possible loss of data
+  IRRLoader.cpp
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\DXFLoader.cpp(227): warning C4267: '+=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\DXFLoader.cpp(228): warning C4267: '+=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\DXFLoader.cpp(300): warning C4267: '+=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\DXFLoader.cpp(709): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\DXFLoader.cpp(910): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\CSMLoader.cpp(182): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+g:\gl\voxel-cone-tracing\lib\assimp\code\irrXMLWrapper.h(95): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data (compiling source file G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IRRLoader.cpp)
+g:\gl\voxel-cone-tracing\lib\assimp\code\irrXMLWrapper.h(120): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data (compiling source file G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IRRLoader.cpp)
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IRRLoader.cpp(218): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IRRLoader.cpp(226): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IRRLoader.cpp(234): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IRRLoader.cpp(242): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IRRLoader.cpp(250): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IRRLoader.cpp(258): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:\Visual Studio\VC\Tools\MSVC\14.11.25503\include\numeric(21): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data (compiling source file G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaLoader.cpp)
+  D:\Visual Studio\VC\Tools\MSVC\14.11.25503\include\numeric(31): note: see reference to function template instantiation '_Ty std::_Accumulate_unchecked<const unsigned __int64*,_Ty,_Fn>(_InIt,_InIt,_Ty,_Fn &)' being compiled
+          with
+          [
+              _Ty=int,
+              _Fn=std::plus<void>,
+              _InIt=const unsigned __int64 *
+          ] (compiling source file G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaLoader.cpp)
+  D:\Visual Studio\VC\Tools\MSVC\14.11.25503\include\numeric(39): note: see reference to function template instantiation '_Ty std::accumulate<_InIt,_Ty,std::plus<void>>(_InIt,_InIt,_Ty,_Fn)' being compiled
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<size_t>>>,
+              _Fn=std::plus<void>
+          ] (compiling source file G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaLoader.cpp)
+  G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaLoader.cpp(569): note: see reference to function template instantiation '_Ty std::accumulate<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<unsigned __int64>>>,int>(_InIt,_InIt,_Ty)' being compiled
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<size_t>>>
+          ]
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IRRLoader.cpp(644): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:\Visual Studio\VC\Tools\MSVC\14.11.25503\include\xutility(2254): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data (compiling source file G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaLoader.cpp)
+  D:\Visual Studio\VC\Tools\MSVC\14.11.25503\include\xutility(2273): note: see reference to function template instantiation '_OutIt std::_Copy_unchecked1<_InIt,_OutIt>(_InIt,_InIt,_OutIt,std::_General_ptr_iterator_tag)' being compiled
+          with
+          [
+              _OutIt=unsigned int *,
+              _InIt=unsigned __int64 *
+          ] (compiling source file G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaLoader.cpp)
+  D:\Visual Studio\VC\Tools\MSVC\14.11.25503\include\xutility(2286): note: see reference to function template instantiation '_OutIt std::_Copy_unchecked<unsigned __int64*,_Iter>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=unsigned int *,
+              _Iter=unsigned int *,
+              _InIt=unsigned __int64 *
+          ] (compiling source file G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaLoader.cpp)
+  D:\Visual Studio\VC\Tools\MSVC\14.11.25503\include\xutility(2295): note: see reference to function template instantiation '_OutIt std::_Copy_no_deprecate<_InIt,_OutIt>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=unsigned int *,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<size_t>>>
+          ] (compiling source file G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaLoader.cpp)
+  G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaLoader.cpp(554): note: see reference to function template instantiation '_OutIt *std::copy<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,unsigned int*>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=unsigned int *,
+              _Ty=::size_t,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<size_t>>>
+          ]
+  IRRMeshLoader.cpp
+  IRRShared.cpp
+  LWOAnimation.cpp
+g:\gl\voxel-cone-tracing\lib\assimp\code\irrXMLWrapper.h(95): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data (compiling source file G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IRRShared.cpp)
+g:\gl\voxel-cone-tracing\lib\assimp\code\irrXMLWrapper.h(120): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data (compiling source file G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IRRShared.cpp)
+g:\gl\voxel-cone-tracing\lib\assimp\code\irrXMLWrapper.h(95): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data (compiling source file G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IRRMeshLoader.cpp)
+g:\gl\voxel-cone-tracing\lib\assimp\code\irrXMLWrapper.h(120): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data (compiling source file G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IRRMeshLoader.cpp)
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\LWOAnimation.cpp(563): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\LWOAnimation.cpp(572): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\LWOAnimation.cpp(592): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+  LWOBLoader.cpp
+  LWOLoader.cpp
+  LWOMaterial.cpp
+  LWSLoader.cpp
+  MD2Loader.cpp
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\LWOLoader.cpp(430): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+  MD3Loader.cpp
+  MD5Loader.cpp
+  MD5Parser.cpp
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\LWSLoader.cpp(905): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+  MDCLoader.cpp
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MD5Loader.cpp(233): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MD5Loader.cpp(233): warning C4267: 'initializing': conversion from 'size_t' to 'const unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MD5Loader.cpp(234): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MD5Loader.cpp(724): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MD5Loader.cpp(730): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MD5Loader.cpp(733): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MD3Loader.cpp(704): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  MDLLoader.cpp
+  MDLMaterialLoader.cpp
+  NFFLoader.cpp
+  NDOLoader.cpp
+  OFFLoader.cpp
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\NDOLoader.cpp(262): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\NDOLoader.cpp(283): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\NDOLoader.cpp(292): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\NDOLoader.cpp(296): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+  ObjFileImporter.cpp
+  ObjFileMtlImporter.cpp
+  ObjFileParser.cpp
+  ObjExporter.cpp
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileImporter.cpp(308): warning C4267: '+=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileImporter.cpp(311): warning C4267: '+=': conversion from 'size_t' to 'unsigned int', possible loss of data
+  OgreImporter.cpp
+  OgreStructs.cpp
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileParser.cpp(324): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileParser.cpp(324): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileParser.cpp(325): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileParser.cpp(325): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileParser.cpp(326): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileParser.cpp(326): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileParser.cpp(739): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileMtlImporter.cpp(307): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileMtlImporter.cpp(311): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileMtlImporter.cpp(315): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileMtlImporter.cpp(319): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileMtlImporter.cpp(323): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileMtlImporter.cpp(327): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileMtlImporter.cpp(328): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileMtlImporter.cpp(329): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileMtlImporter.cpp(333): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileMtlImporter.cpp(337): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileMtlImporter.cpp(340): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileMtlImporter.cpp(344): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileMtlImporter.cpp(388): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileMtlImporter.cpp(400): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileMtlImporter.cpp(443): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileMtlImporter.cpp(444): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileMtlImporter.cpp(445): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileMtlImporter.cpp(446): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileMtlImporter.cpp(447): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileMtlImporter.cpp(448): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileMtlImporter.cpp(452): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileMtlImporter.cpp(456): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileMtlImporter.cpp(457): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileMtlImporter.cpp(458): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  OgreBinarySerializer.cpp
+g:\gl\voxel-cone-tracing\lib\assimp\code\irrXMLWrapper.h(95): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data (compiling source file G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreImporter.cpp)
+g:\gl\voxel-cone-tracing\lib\assimp\code\irrXMLWrapper.h(120): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data (compiling source file G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreImporter.cpp)
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreStructs.cpp(278): warning C4267: 'argument': conversion from 'size_t' to 'const unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreStructs.cpp(283): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreStructs.cpp(324): warning C4267: '+=': conversion from 'size_t' to 'uint32_t', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreStructs.cpp(457): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreStructs.cpp(469): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreStructs.cpp(479): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreStructs.cpp(491): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreStructs.cpp(570): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreStructs.cpp(602): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreStructs.cpp(615): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreStructs.cpp(663): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreStructs.cpp(667): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreStructs.cpp(702): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreStructs.cpp(756): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreStructs.cpp(768): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreStructs.cpp(778): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreStructs.cpp(790): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreStructs.cpp(838): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreStructs.cpp(873): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreStructs.cpp(877): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreStructs.cpp(902): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreStructs.cpp(956): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreStructs.cpp(1097): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreStructs.cpp(1120): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreStructs.cpp(1156): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreStructs.cpp(1157): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreStructs.cpp(1158): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+  OgreXmlSerializer.cpp
+g:\gl\voxel-cone-tracing\lib\assimp\code\irrXMLWrapper.h(95): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data (compiling source file G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreBinarySerializer.cpp)
+g:\gl\voxel-cone-tracing\lib\assimp\code\irrXMLWrapper.h(120): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data (compiling source file G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreBinarySerializer.cpp)
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreBinarySerializer.cpp(486): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+  OgreMaterial.cpp
+  OpenGEXExporter.cpp
+g:\gl\voxel-cone-tracing\lib\assimp\code\irrXMLWrapper.h(95): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data (compiling source file G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreXmlSerializer.cpp)
+g:\gl\voxel-cone-tracing\lib\assimp\code\irrXMLWrapper.h(120): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data (compiling source file G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreXmlSerializer.cpp)
+  OpenGEXImporter.cpp
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreXmlSerializer.cpp(626): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+  PlyLoader.cpp
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OpenGEXImporter.cpp(441): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreMaterial.cpp(74): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreMaterial.cpp(80): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreMaterial.cpp(96): warning C4267: 'argument': conversion from 'size_t' to 'uint16_t', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreMaterial.cpp(102): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreMaterial.cpp(113): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OpenGEXImporter.cpp(698): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OpenGEXImporter.cpp(700): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OpenGEXImporter.cpp(703): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OpenGEXImporter.cpp(849): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OpenGEXImporter.cpp(870): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OpenGEXImporter.cpp(893): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+  PlyParser.cpp
+  PlyExporter.cpp
+  MS3DLoader.cpp
+  COBLoader.cpp
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MS3DLoader.cpp(426): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MS3DLoader.cpp(486): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+  BlenderLoader.cpp
+  BlenderDNA.cpp
+  BlenderScene.cpp
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\COBLoader.cpp(187): warning C4267: '+=': conversion from 'size_t' to 'unsigned int', possible loss of data
+  BlenderModifier.cpp
+  BlenderBMesh.cpp
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BlenderLoader.cpp(423): warning C4267: 'argument': conversion from 'size_t' to 'int32_t', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BlenderLoader.cpp(1083): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+g:\gl\voxel-cone-tracing\lib\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.h(161): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data (compiling source file G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BlenderBMesh.cpp)
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BlenderBMesh.cpp(183): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  BlenderTessellator.cpp
+  IFCLoader.cpp
+  IFCReaderGen.cpp
+  IFCUtil.cpp
+  IFCGeometry.cpp
+g:\gl\voxel-cone-tracing\lib\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.h(161): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data (compiling source file G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BlenderTessellator.cpp)
+  IFCMaterial.cpp
+  IFCProfile.cpp
+  IFCCurve.cpp
+  IFCBoolean.cpp
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCBoolean.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCLoader.cpp(711): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCUtil.cpp(183): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCUtil.cpp(551): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCUtil.cpp(567): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+g:\gl\voxel-cone-tracing\lib\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.h(161): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data (compiling source file G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCGeometry.cpp)
+g:\gl\voxel-cone-tracing\lib\assimp\code\../contrib/clipper/clipper.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (compiling source file G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCGeometry.cpp)
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCGeometry.cpp(73): warning C4267: 'argument': conversion from 'size_t' to 'const unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCGeometry.cpp(183): warning C4267: 'argument': conversion from 'size_t' to 'const unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCGeometry.cpp(308): warning C4267: 'argument': conversion from 'size_t' to 'const unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCGeometry.cpp(309): warning C4267: 'argument': conversion from 'size_t' to 'const unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCGeometry.cpp(641): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCGeometry.cpp(668): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCGeometry.cpp(813): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCGeometry.cpp(832): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCMaterial.cpp(162): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCProfile.cpp(62): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCProfile.cpp(83): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCBoolean.cpp(112): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCBoolean.cpp(135): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCBoolean.cpp(592): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  IFCOpenings.cpp
+  STEPFileReader.cpp
+  STEPFileEncoding.cpp
+  XGLLoader.cpp
+  FBXImporter.cpp
+g:\gl\voxel-cone-tracing\lib\assimp\code\irrXMLWrapper.h(95): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data (compiling source file G:\GL\Voxel-Cone-Tracing\lib\assimp\code\XGLLoader.cpp)
+g:\gl\voxel-cone-tracing\lib\assimp\code\irrXMLWrapper.h(120): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data (compiling source file G:\GL\Voxel-Cone-Tracing\lib\assimp\code\XGLLoader.cpp)
+  FBXParser.cpp
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\XGLLoader.cpp(714): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXImporter.cpp(167): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXParser.cpp(578): warning C4267: '=': conversion from 'size_t' to 'uInt', possible loss of data
+  FBXTokenizer.cpp
+  FBXConverter.cpp
+  FBXUtil.cpp
+g:\gl\voxel-cone-tracing\lib\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.h(161): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data (compiling source file G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCOpenings.cpp)
+g:\gl\voxel-cone-tracing\lib\assimp\code\../contrib/clipper/clipper.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (compiling source file G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCOpenings.cpp)
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCOpenings.cpp(367): warning C4267: 'argument': conversion from 'size_t' to 'const unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCOpenings.cpp(552): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  FBXDocument.cpp
+  FBXProperties.cpp
+  FBXMeshGeometry.cpp
+  FBXMaterial.cpp
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXConverter.cpp(763): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXConverter.cpp(2670): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXConverter.cpp(2670): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+  FBXModel.cpp
+  FBXAnimation.cpp
+  FBXNodeAttribute.cpp
+  FBXDeformer.cpp
+  FBXBinaryTokenizer.cpp
+  FBXDocumentUtil.cpp
+  Q3DLoader.cpp
+  Q3BSPFileParser.cpp
+  Q3BSPFileImporter.cpp
+  Q3BSPZipArchive.cpp
+  RawLoader.cpp
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Q3BSPFileImporter.cpp(342): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Q3BSPFileImporter.cpp(349): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Q3BSPFileImporter.cpp(376): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Q3BSPFileImporter.cpp(378): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Q3BSPFileImporter.cpp(527): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Q3BSPFileImporter.cpp(661): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Q3BSPFileImporter.cpp(675): warning C4267: 'argument': conversion from 'size_t' to 'int32_t', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Q3BSPFileImporter.cpp(733): warning C4267: 'argument': conversion from 'size_t' to 'int32_t', possible loss of data
+  SMDLoader.cpp
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SMDLoader.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Q3BSPZipArchive.cpp(77): warning C4267: 'return': conversion from 'size_t' to 'uLong', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Q3BSPZipArchive.cpp(83): warning C4267: 'return': conversion from 'size_t' to 'uLong', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Q3BSPZipArchive.cpp(89): warning C4267: 'return': conversion from 'size_t' to 'long', possible loss of data
+  STLLoader.cpp
+  STLExporter.cpp
+  TerragenLoader.cpp
+  UnrealLoader.cpp
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\STLLoader.cpp(250): warning C4244: 'argument': conversion from '__int64' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\STLLoader.cpp(372): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\STLLoader.cpp(373): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+  XFileImporter.cpp
+  XFileParser.cpp
+  XFileExporter.cpp
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\UnrealLoader.cpp(339): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+  irrXML.cpp
+g:\gl\voxel-cone-tracing\lib\assimp\contrib\irrxml\irrString.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (compiling source file G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\irrXML\irrXML.cpp)
+G:\GL\Voxel-Cone-Tracing\lib\assimp\code\XFileImporter.cpp(288): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+  shapes.cc
+  advancing_front.cc
+  cdt.cc
+  sweep.cc
+  sweep_context.cc
+g:\gl\voxel-cone-tracing\lib\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.h(161): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data (compiling source file G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\poly2tri\poly2tri\sweep\sweep.cc)
+g:\gl\voxel-cone-tracing\lib\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.h(161): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data (compiling source file G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\poly2tri\poly2tri\sweep\cdt.cc)
+g:\gl\voxel-cone-tracing\lib\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.h(161): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data (compiling source file G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.cc)
+  clipper.cpp
+G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\clipper\clipper.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+g:\gl\voxel-cone-tracing\lib\assimp\contrib\clipper\clipper.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss (compiling source file G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\clipper\clipper.cpp)
+G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.cc(99): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  OpenDDLParser.cpp
+  DDLNode.cpp
+  OpenDDLCommon.cpp
+  OpenDDLExport.cpp
+  Value.cpp
+G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\openddlparser\code\OpenDDLExport.cpp(261): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type '::size_t'
+  G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\openddlparser\code\OpenDDLExport.cpp(261): note: consider using '%zd' in the format string
+  ConvertUTF.c
+  ioapi.c
+  unzip.c
+  assimp.vcxproj -> G:\GL\Voxel-Cone-Tracing\build\lib\assimp\code\Release\assimp-vc130-mt.lib

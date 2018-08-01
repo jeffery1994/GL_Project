@@ -1,0 +1,24 @@
+# CMake generation dependency list for this directory.
+G:/GL/Voxel-Cone-Tracing/CMakeLists.txt
+G:/GL/Voxel-Cone-Tracing/build/CMakeFiles/3.10.1/CMakeSystem.cmake
+D:/CMake/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake
+G:/GL/Voxel-Cone-Tracing/build/CMakeFiles/3.10.1/CMakeCCompiler.cmake
+G:/GL/Voxel-Cone-Tracing/build/CMakeFiles/3.10.1/CMakeCXXCompiler.cmake
+D:/CMake/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake
+D:/CMake/share/cmake-3.10/Modules/CMakeGenericSystem.cmake
+D:/CMake/share/cmake-3.10/Modules/Platform/Windows.cmake
+D:/CMake/share/cmake-3.10/Modules/Platform/WindowsPaths.cmake
+D:/CMake/share/cmake-3.10/Modules/CMakeCInformation.cmake
+D:/CMake/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake
+D:/CMake/share/cmake-3.10/Modules/Platform/Windows-MSVC-C.cmake
+D:/CMake/share/cmake-3.10/Modules/Platform/Windows-MSVC.cmake
+G:/GL/Voxel-Cone-Tracing/build/CMakeFiles/3.10.1/CMakeRCCompiler.cmake
+D:/CMake/share/cmake-3.10/Modules/CMakeRCInformation.cmake
+D:/CMake/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake
+D:/CMake/share/cmake-3.10/Modules/CMakeCXXInformation.cmake
+D:/CMake/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake
+D:/CMake/share/cmake-3.10/Modules/Compiler/MSVC-CXX.cmake
+D:/CMake/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+D:/CMake/share/cmake-3.10/Modules/Platform/Windows-MSVC-CXX.cmake
+D:/CMake/share/cmake-3.10/Modules/Platform/Windows-MSVC.cmake
+D:/CMake/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake

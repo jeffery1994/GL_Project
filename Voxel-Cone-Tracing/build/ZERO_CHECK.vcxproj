@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7A032ACA-7AEC-39A9-8F41-EDFE182A8772}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>G:\GL\Voxel-Cone-Tracing\include;G:\GL\Voxel-Cone-Tracing\lib\assimp\include;G:\GL\Voxel-Cone-Tracing\lib\glfw\include;G:\GL\Voxel-Cone-Tracing\lib\glew\include;G:\GL\Voxel-Cone-Tracing\lib\glew\src;G:\GL\Voxel-Cone-Tracing\lib\glm;G:\GL\Voxel-Cone-Tracing\lib\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>G:\GL\Voxel-Cone-Tracing\include;G:\GL\Voxel-Cone-Tracing\lib\assimp\include;G:\GL\Voxel-Cone-Tracing\lib\glfw\include;G:\GL\Voxel-Cone-Tracing\lib\glew\include;G:\GL\Voxel-Cone-Tracing\lib\glew\src;G:\GL\Voxel-Cone-Tracing\lib\glm;G:\GL\Voxel-Cone-Tracing\lib\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>G:\GL\Voxel-Cone-Tracing\include;G:\GL\Voxel-Cone-Tracing\lib\assimp\include;G:\GL\Voxel-Cone-Tracing\lib\glfw\include;G:\GL\Voxel-Cone-Tracing\lib\glew\include;G:\GL\Voxel-Cone-Tracing\lib\glew\src;G:\GL\Voxel-Cone-Tracing\lib\glm;G:\GL\Voxel-Cone-Tracing\lib\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>G:\GL\Voxel-Cone-Tracing\include;G:\GL\Voxel-Cone-Tracing\lib\assimp\include;G:\GL\Voxel-Cone-Tracing\lib\glfw\include;G:\GL\Voxel-Cone-Tracing\lib\glew\include;G:\GL\Voxel-Cone-Tracing\lib\glew\src;G:\GL\Voxel-Cone-Tracing\lib\glm;G:\GL\Voxel-Cone-Tracing\lib\stb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\GL\Voxel-Cone-Tracing\build\CMakeFiles\22fbf229aad87ddbc4b92091900c576b\generate.stamp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\CMake\bin\cmake.exe -HG:/GL/Voxel-Cone-Tracing -BG:/GL/Voxel-Cone-Tracing/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file G:/GL/Voxel-Cone-Tracing/build/VCT.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/GL/Voxel-Cone-Tracing/build/CMakeFiles/22fbf229aad87ddbc4b92091900c576b/generate.stamp.rule;D:\CMake\share\cmake-3.10\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakePackageConfigHelpers.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;D:\CMake\share\cmake-3.10\Modules\CheckFunctionExists.cmake;D:\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.10\Modules\CheckIncludeFileCXX.cmake;D:\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;D:\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;D:\CMake\share\cmake-3.10\Modules\CheckTypeSize.cmake;D:\CMake\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.10\Modules\FindPkgConfig.cmake;D:\CMake\share\cmake-3.10\Modules\FindThreads.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;D:\CMake\share\cmake-3.10\Modules\WriteBasicConfigVersionFile.cmake;G:\GL\Voxel-Cone-Tracing\CMakeLists.txt;G:\GL\Voxel-Cone-Tracing\build\CMakeFiles\3.10.1\CMakeCCompiler.cmake;G:\GL\Voxel-Cone-Tracing\build\CMakeFiles\3.10.1\CMakeCXXCompiler.cmake;G:\GL\Voxel-Cone-Tracing\build\CMakeFiles\3.10.1\CMakeRCCompiler.cmake;G:\GL\Voxel-Cone-Tracing\build\CMakeFiles\3.10.1\CMakeSystem.cmake;G:\GL\Voxel-Cone-Tracing\lib\assimp\CMakeLists.txt;G:\GL\Voxel-Cone-Tracing\lib\assimp\assimp-config-version.cmake.in;G:\GL\Voxel-Cone-Tracing\lib\assimp\assimp-config.cmake.in;G:\GL\Voxel-Cone-Tracing\lib\assimp\assimp.pc.in;G:\GL\Voxel-Cone-Tracing\lib\assimp\cmake-modules\FindDirectX.cmake;G:\GL\Voxel-Cone-Tracing\lib\assimp\cmake-modules\FindPkgMacros.cmake;G:\GL\Voxel-Cone-Tracing\lib\assimp\cmake-modules\FindZLIB.cmake;G:\GL\Voxel-Cone-Tracing\lib\assimp\cmake-modules\PrecompiledHeader.cmake;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\CMakeLists.txt;G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\zlib\CMakeLists.txt;G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\zlib\zconf.h.cmakein;G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\zlib\zlib.pc.cmakein;G:\GL\Voxel-Cone-Tracing\lib\assimp\revision.h.in;G:\GL\Voxel-Cone-Tracing\lib\glew\CMakeLists.txt;G:\GL\Voxel-Cone-Tracing\lib\glfw\CMakeLists.txt;G:\GL\Voxel-Cone-Tracing\lib\glfw\cmake_uninstall.cmake.in;G:\GL\Voxel-Cone-Tracing\lib\glfw\src\CMakeLists.txt;G:\GL\Voxel-Cone-Tracing\lib\glfw\src\glfw3.pc.in;G:\GL\Voxel-Cone-Tracing\lib\glfw\src\glfw3Config.cmake.in;G:\GL\Voxel-Cone-Tracing\lib\glfw\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\GL\Voxel-Cone-Tracing\build\CMakeFiles\generate.stamp;G:\GL\Voxel-Cone-Tracing\build\lib\glfw\CMakeFiles\generate.stamp;G:\GL\Voxel-Cone-Tracing\build\lib\glfw\src\CMakeFiles\generate.stamp;G:\GL\Voxel-Cone-Tracing\build\lib\assimp\CMakeFiles\generate.stamp;G:\GL\Voxel-Cone-Tracing\build\lib\assimp\contrib\zlib\CMakeFiles\generate.stamp;G:\GL\Voxel-Cone-Tracing\build\lib\assimp\code\CMakeFiles\generate.stamp;G:\GL\Voxel-Cone-Tracing\build\lib\glew\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\CMake\bin\cmake.exe -HG:/GL/Voxel-Cone-Tracing -BG:/GL/Voxel-Cone-Tracing/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file G:/GL/Voxel-Cone-Tracing/build/VCT.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/GL/Voxel-Cone-Tracing/build/CMakeFiles/22fbf229aad87ddbc4b92091900c576b/generate.stamp.rule;D:\CMake\share\cmake-3.10\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakePackageConfigHelpers.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;D:\CMake\share\cmake-3.10\Modules\CheckFunctionExists.cmake;D:\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.10\Modules\CheckIncludeFileCXX.cmake;D:\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;D:\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;D:\CMake\share\cmake-3.10\Modules\CheckTypeSize.cmake;D:\CMake\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.10\Modules\FindPkgConfig.cmake;D:\CMake\share\cmake-3.10\Modules\FindThreads.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;D:\CMake\share\cmake-3.10\Modules\WriteBasicConfigVersionFile.cmake;G:\GL\Voxel-Cone-Tracing\CMakeLists.txt;G:\GL\Voxel-Cone-Tracing\build\CMakeFiles\3.10.1\CMakeCCompiler.cmake;G:\GL\Voxel-Cone-Tracing\build\CMakeFiles\3.10.1\CMakeCXXCompiler.cmake;G:\GL\Voxel-Cone-Tracing\build\CMakeFiles\3.10.1\CMakeRCCompiler.cmake;G:\GL\Voxel-Cone-Tracing\build\CMakeFiles\3.10.1\CMakeSystem.cmake;G:\GL\Voxel-Cone-Tracing\lib\assimp\CMakeLists.txt;G:\GL\Voxel-Cone-Tracing\lib\assimp\assimp-config-version.cmake.in;G:\GL\Voxel-Cone-Tracing\lib\assimp\assimp-config.cmake.in;G:\GL\Voxel-Cone-Tracing\lib\assimp\assimp.pc.in;G:\GL\Voxel-Cone-Tracing\lib\assimp\cmake-modules\FindDirectX.cmake;G:\GL\Voxel-Cone-Tracing\lib\assimp\cmake-modules\FindPkgMacros.cmake;G:\GL\Voxel-Cone-Tracing\lib\assimp\cmake-modules\FindZLIB.cmake;G:\GL\Voxel-Cone-Tracing\lib\assimp\cmake-modules\PrecompiledHeader.cmake;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\CMakeLists.txt;G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\zlib\CMakeLists.txt;G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\zlib\zconf.h.cmakein;G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\zlib\zlib.pc.cmakein;G:\GL\Voxel-Cone-Tracing\lib\assimp\revision.h.in;G:\GL\Voxel-Cone-Tracing\lib\glew\CMakeLists.txt;G:\GL\Voxel-Cone-Tracing\lib\glfw\CMakeLists.txt;G:\GL\Voxel-Cone-Tracing\lib\glfw\cmake_uninstall.cmake.in;G:\GL\Voxel-Cone-Tracing\lib\glfw\src\CMakeLists.txt;G:\GL\Voxel-Cone-Tracing\lib\glfw\src\glfw3.pc.in;G:\GL\Voxel-Cone-Tracing\lib\glfw\src\glfw3Config.cmake.in;G:\GL\Voxel-Cone-Tracing\lib\glfw\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\GL\Voxel-Cone-Tracing\build\CMakeFiles\generate.stamp;G:\GL\Voxel-Cone-Tracing\build\lib\glfw\CMakeFiles\generate.stamp;G:\GL\Voxel-Cone-Tracing\build\lib\glfw\src\CMakeFiles\generate.stamp;G:\GL\Voxel-Cone-Tracing\build\lib\assimp\CMakeFiles\generate.stamp;G:\GL\Voxel-Cone-Tracing\build\lib\assimp\contrib\zlib\CMakeFiles\generate.stamp;G:\GL\Voxel-Cone-Tracing\build\lib\assimp\code\CMakeFiles\generate.stamp;G:\GL\Voxel-Cone-Tracing\build\lib\glew\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\CMake\bin\cmake.exe -HG:/GL/Voxel-Cone-Tracing -BG:/GL/Voxel-Cone-Tracing/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file G:/GL/Voxel-Cone-Tracing/build/VCT.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/GL/Voxel-Cone-Tracing/build/CMakeFiles/22fbf229aad87ddbc4b92091900c576b/generate.stamp.rule;D:\CMake\share\cmake-3.10\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakePackageConfigHelpers.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;D:\CMake\share\cmake-3.10\Modules\CheckFunctionExists.cmake;D:\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.10\Modules\CheckIncludeFileCXX.cmake;D:\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;D:\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;D:\CMake\share\cmake-3.10\Modules\CheckTypeSize.cmake;D:\CMake\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.10\Modules\FindPkgConfig.cmake;D:\CMake\share\cmake-3.10\Modules\FindThreads.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;D:\CMake\share\cmake-3.10\Modules\WriteBasicConfigVersionFile.cmake;G:\GL\Voxel-Cone-Tracing\CMakeLists.txt;G:\GL\Voxel-Cone-Tracing\build\CMakeFiles\3.10.1\CMakeCCompiler.cmake;G:\GL\Voxel-Cone-Tracing\build\CMakeFiles\3.10.1\CMakeCXXCompiler.cmake;G:\GL\Voxel-Cone-Tracing\build\CMakeFiles\3.10.1\CMakeRCCompiler.cmake;G:\GL\Voxel-Cone-Tracing\build\CMakeFiles\3.10.1\CMakeSystem.cmake;G:\GL\Voxel-Cone-Tracing\lib\assimp\CMakeLists.txt;G:\GL\Voxel-Cone-Tracing\lib\assimp\assimp-config-version.cmake.in;G:\GL\Voxel-Cone-Tracing\lib\assimp\assimp-config.cmake.in;G:\GL\Voxel-Cone-Tracing\lib\assimp\assimp.pc.in;G:\GL\Voxel-Cone-Tracing\lib\assimp\cmake-modules\FindDirectX.cmake;G:\GL\Voxel-Cone-Tracing\lib\assimp\cmake-modules\FindPkgMacros.cmake;G:\GL\Voxel-Cone-Tracing\lib\assimp\cmake-modules\FindZLIB.cmake;G:\GL\Voxel-Cone-Tracing\lib\assimp\cmake-modules\PrecompiledHeader.cmake;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\CMakeLists.txt;G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\zlib\CMakeLists.txt;G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\zlib\zconf.h.cmakein;G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\zlib\zlib.pc.cmakein;G:\GL\Voxel-Cone-Tracing\lib\assimp\revision.h.in;G:\GL\Voxel-Cone-Tracing\lib\glew\CMakeLists.txt;G:\GL\Voxel-Cone-Tracing\lib\glfw\CMakeLists.txt;G:\GL\Voxel-Cone-Tracing\lib\glfw\cmake_uninstall.cmake.in;G:\GL\Voxel-Cone-Tracing\lib\glfw\src\CMakeLists.txt;G:\GL\Voxel-Cone-Tracing\lib\glfw\src\glfw3.pc.in;G:\GL\Voxel-Cone-Tracing\lib\glfw\src\glfw3Config.cmake.in;G:\GL\Voxel-Cone-Tracing\lib\glfw\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\GL\Voxel-Cone-Tracing\build\CMakeFiles\generate.stamp;G:\GL\Voxel-Cone-Tracing\build\lib\glfw\CMakeFiles\generate.stamp;G:\GL\Voxel-Cone-Tracing\build\lib\glfw\src\CMakeFiles\generate.stamp;G:\GL\Voxel-Cone-Tracing\build\lib\assimp\CMakeFiles\generate.stamp;G:\GL\Voxel-Cone-Tracing\build\lib\assimp\contrib\zlib\CMakeFiles\generate.stamp;G:\GL\Voxel-Cone-Tracing\build\lib\assimp\code\CMakeFiles\generate.stamp;G:\GL\Voxel-Cone-Tracing\build\lib\glew\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\CMake\bin\cmake.exe -HG:/GL/Voxel-Cone-Tracing -BG:/GL/Voxel-Cone-Tracing/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file G:/GL/Voxel-Cone-Tracing/build/VCT.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/GL/Voxel-Cone-Tracing/build/CMakeFiles/22fbf229aad87ddbc4b92091900c576b/generate.stamp.rule;D:\CMake\share\cmake-3.10\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakePackageConfigHelpers.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;D:\CMake\share\cmake-3.10\Modules\CheckFunctionExists.cmake;D:\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.10\Modules\CheckIncludeFileCXX.cmake;D:\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;D:\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;D:\CMake\share\cmake-3.10\Modules\CheckTypeSize.cmake;D:\CMake\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.10\Modules\FindPkgConfig.cmake;D:\CMake\share\cmake-3.10\Modules\FindThreads.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;D:\CMake\share\cmake-3.10\Modules\WriteBasicConfigVersionFile.cmake;G:\GL\Voxel-Cone-Tracing\CMakeLists.txt;G:\GL\Voxel-Cone-Tracing\build\CMakeFiles\3.10.1\CMakeCCompiler.cmake;G:\GL\Voxel-Cone-Tracing\build\CMakeFiles\3.10.1\CMakeCXXCompiler.cmake;G:\GL\Voxel-Cone-Tracing\build\CMakeFiles\3.10.1\CMakeRCCompiler.cmake;G:\GL\Voxel-Cone-Tracing\build\CMakeFiles\3.10.1\CMakeSystem.cmake;G:\GL\Voxel-Cone-Tracing\lib\assimp\CMakeLists.txt;G:\GL\Voxel-Cone-Tracing\lib\assimp\assimp-config-version.cmake.in;G:\GL\Voxel-Cone-Tracing\lib\assimp\assimp-config.cmake.in;G:\GL\Voxel-Cone-Tracing\lib\assimp\assimp.pc.in;G:\GL\Voxel-Cone-Tracing\lib\assimp\cmake-modules\FindDirectX.cmake;G:\GL\Voxel-Cone-Tracing\lib\assimp\cmake-modules\FindPkgMacros.cmake;G:\GL\Voxel-Cone-Tracing\lib\assimp\cmake-modules\FindZLIB.cmake;G:\GL\Voxel-Cone-Tracing\lib\assimp\cmake-modules\PrecompiledHeader.cmake;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\CMakeLists.txt;G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\zlib\CMakeLists.txt;G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\zlib\zconf.h.cmakein;G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\zlib\zlib.pc.cmakein;G:\GL\Voxel-Cone-Tracing\lib\assimp\revision.h.in;G:\GL\Voxel-Cone-Tracing\lib\glew\CMakeLists.txt;G:\GL\Voxel-Cone-Tracing\lib\glfw\CMakeLists.txt;G:\GL\Voxel-Cone-Tracing\lib\glfw\cmake_uninstall.cmake.in;G:\GL\Voxel-Cone-Tracing\lib\glfw\src\CMakeLists.txt;G:\GL\Voxel-Cone-Tracing\lib\glfw\src\glfw3.pc.in;G:\GL\Voxel-Cone-Tracing\lib\glfw\src\glfw3Config.cmake.in;G:\GL\Voxel-Cone-Tracing\lib\glfw\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\GL\Voxel-Cone-Tracing\build\CMakeFiles\generate.stamp;G:\GL\Voxel-Cone-Tracing\build\lib\glfw\CMakeFiles\generate.stamp;G:\GL\Voxel-Cone-Tracing\build\lib\glfw\src\CMakeFiles\generate.stamp;G:\GL\Voxel-Cone-Tracing\build\lib\assimp\CMakeFiles\generate.stamp;G:\GL\Voxel-Cone-Tracing\build\lib\assimp\contrib\zlib\CMakeFiles\generate.stamp;G:\GL\Voxel-Cone-Tracing\build\lib\assimp\code\CMakeFiles\generate.stamp;G:\GL\Voxel-Cone-Tracing\build\lib\glew\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

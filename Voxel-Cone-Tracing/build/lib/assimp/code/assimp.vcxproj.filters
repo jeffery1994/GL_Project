@@ -1,0 +1,1422 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Assimp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BaseImporter.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BaseProcess.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\PostStepRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ImporterRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\DefaultIOStream.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\DefaultIOSystem.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Importer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SGSpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\VertexTriangleAdjacency.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SceneCombiner.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ScenePreprocessor.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SkeletonMeshBuilder.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SplitByBoneCountProcess.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\StandardShapes.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\TargetAnimation.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\RemoveComments.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Subdivision.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Bitmap.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Version.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\DefaultLogger.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Exporter.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\AssimpCExport.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\CalcTangentsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ComputeUVMappingProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ConvertToLHProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FindDegenerates.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FindInstancesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FindInvalidDataProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FixNormalsStep.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\GenFaceNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\GenVertexNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\PretransformVertices.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ImproveCacheLocality.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\JoinVerticesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\LimitBoneWeightsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\RemoveRedundantMaterials.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\RemoveVCProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SortByPTypeProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SplitLargeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\TextureTransform.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\TriangulateProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ValidateDataStructure.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OptimizeGraph.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OptimizeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\DeboneProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ProcessHelper.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MakeVerboseFormat.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MaterialSystem.cpp">
+      <Filter>MaterialSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\StepExporter.cpp">
+      <Filter>Step</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\3DSConverter.cpp">
+      <Filter>3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\3DSLoader.cpp">
+      <Filter>3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\3DSExporter.cpp">
+      <Filter>3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ACLoader.cpp">
+      <Filter>AC</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ASELoader.cpp">
+      <Filter>ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ASEParser.cpp">
+      <Filter>ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\AssbinExporter.cpp">
+      <Filter>ASSBIN</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\AssbinLoader.cpp">
+      <Filter>ASSBIN</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\AssxmlExporter.cpp">
+      <Filter>ASSXML</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\B3DImporter.cpp">
+      <Filter>B3D</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BVHLoader.cpp">
+      <Filter>BVH</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaLoader.cpp">
+      <Filter>COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaParser.cpp">
+      <Filter>COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaExporter.cpp">
+      <Filter>COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\DXFLoader.cpp">
+      <Filter>DXF</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\CSMLoader.cpp">
+      <Filter>CSM</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\HMPLoader.cpp">
+      <Filter>HMP</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IRRLoader.cpp">
+      <Filter>IRR</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IRRMeshLoader.cpp">
+      <Filter>IRR</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IRRShared.cpp">
+      <Filter>IRR</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\LWOAnimation.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\LWOBLoader.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\LWOLoader.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\LWOMaterial.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\LWSLoader.cpp">
+      <Filter>LWS</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MD2Loader.cpp">
+      <Filter>MD2</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MD3Loader.cpp">
+      <Filter>MD3</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MD5Loader.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MD5Parser.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MDCLoader.cpp">
+      <Filter>MDC</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MDLLoader.cpp">
+      <Filter>MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MDLMaterialLoader.cpp">
+      <Filter>MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\NFFLoader.cpp">
+      <Filter>NFF</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\NDOLoader.cpp">
+      <Filter>NDO</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OFFLoader.cpp">
+      <Filter>OFF</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileImporter.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileMtlImporter.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileParser.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjExporter.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreImporter.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreStructs.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreBinarySerializer.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreXmlSerializer.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreMaterial.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OpenGEXExporter.cpp">
+      <Filter>OPENGEX</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OpenGEXImporter.cpp">
+      <Filter>OPENGEX</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\PlyLoader.cpp">
+      <Filter>PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\PlyParser.cpp">
+      <Filter>PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\PlyExporter.cpp">
+      <Filter>PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MS3DLoader.cpp">
+      <Filter>MS3D</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\COBLoader.cpp">
+      <Filter>COB</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BlenderLoader.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BlenderDNA.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BlenderScene.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BlenderModifier.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BlenderBMesh.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BlenderTessellator.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCLoader.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCReaderGen.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCUtil.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCGeometry.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCMaterial.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCProfile.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCCurve.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCBoolean.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCOpenings.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\STEPFileReader.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\STEPFileEncoding.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\XGLLoader.cpp">
+      <Filter>XGL</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXImporter.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXParser.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXTokenizer.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXConverter.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXUtil.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXDocument.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXProperties.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXMeshGeometry.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXMaterial.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXModel.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXAnimation.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXNodeAttribute.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXDeformer.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXBinaryTokenizer.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXDocumentUtil.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Q3DLoader.cpp">
+      <Filter>Q3D</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Q3BSPFileParser.cpp">
+      <Filter>Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Q3BSPFileImporter.cpp">
+      <Filter>Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Q3BSPZipArchive.cpp">
+      <Filter>Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\RawLoader.cpp">
+      <Filter>RAW</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SMDLoader.cpp">
+      <Filter>SMD</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\STLLoader.cpp">
+      <Filter>STL</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\STLExporter.cpp">
+      <Filter>STL</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\TerragenLoader.cpp">
+      <Filter>TERRAGEN</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\UnrealLoader.cpp">
+      <Filter>3D</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\XFileImporter.cpp">
+      <Filter>X</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\XFileParser.cpp">
+      <Filter>X</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\XFileExporter.cpp">
+      <Filter>X</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\irrXML\irrXML.cpp">
+      <Filter>IrrXML</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\ConvertUTF\ConvertUTF.c">
+      <Filter>ConvertUTF</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\unzip\ioapi.c">
+      <Filter>unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\unzip\unzip.c">
+      <Filter>unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\poly2tri\poly2tri\common\shapes.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\poly2tri\poly2tri\sweep\advancing_front.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\poly2tri\poly2tri\sweep\cdt.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\poly2tri\poly2tri\sweep\sweep.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\clipper\clipper.cpp">
+      <Filter>Clipper</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\openddlparser\code\OpenDDLParser.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\openddlparser\code\DDLNode.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\openddlparser\code\OpenDDLCommon.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\openddlparser\code\OpenDDLExport.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\openddlparser\code\Value.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\fast_atof.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\qnan.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BaseImporter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BaseProcess.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Importer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ScenePrivate.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ByteSwapper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\DefaultProgressHandler.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\DefaultIOStream.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\DefaultIOSystem.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\CInterfaceIOWrapper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Hash.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFF.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MemoryIOWrapper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ParsingUtils.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\StreamReader.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\StreamWriter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\StringComparison.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SGSpatialSort.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\VertexTriangleAdjacency.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\GenericProperty.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SpatialSort.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SceneCombiner.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ScenePreprocessor.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SkeletonMeshBuilder.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SplitByBoneCountProcess.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SmoothingGroups.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\StandardShapes.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\TargetAnimation.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\RemoveComments.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Subdivision.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Vertex.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\LineSplitter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\TinyFormatter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Profiler.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\LogAux.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Bitmap.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\XMLTools.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\DefaultLogger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\LogStream.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\Logger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\NullLogger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Win32DebugLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FileLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\StdOStreamLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BlobIOSystem.h">
+      <Filter>Exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\CalcTangentsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ComputeUVMappingProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ConvertToLHProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FindDegenerates.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FindInstancesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FindInvalidDataProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FixNormalsStep.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\GenFaceNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\GenVertexNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\PretransformVertices.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ImproveCacheLocality.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\JoinVerticesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\LimitBoneWeightsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\RemoveRedundantMaterials.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\RemoveVCProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SortByPTypeProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SplitLargeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\TextureTransform.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\TriangulateProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ValidateDataStructure.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OptimizeGraph.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OptimizeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\DeboneProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ProcessHelper.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\PolyTools.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MakeVerboseFormat.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MaterialSystem.h">
+      <Filter>MaterialSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\StepExporter.h">
+      <Filter>Step</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\3DSHelper.h">
+      <Filter>3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\3DSLoader.h">
+      <Filter>3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\3DSExporter.h">
+      <Filter>3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ACLoader.h">
+      <Filter>AC</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ASELoader.h">
+      <Filter>ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ASEParser.h">
+      <Filter>ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\AssbinExporter.h">
+      <Filter>ASSBIN</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\AssbinLoader.h">
+      <Filter>ASSBIN</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\AssxmlExporter.h">
+      <Filter>ASSXML</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\B3DImporter.h">
+      <Filter>B3D</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BVHLoader.h">
+      <Filter>BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaHelper.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaLoader.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaParser.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaExporter.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\DXFLoader.h">
+      <Filter>DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\DXFHelper.h">
+      <Filter>DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\CSMLoader.h">
+      <Filter>CSM</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\HMPFileData.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\HMPLoader.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\HalfLifeFileData.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IRRLoader.h">
+      <Filter>IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IRRMeshLoader.h">
+      <Filter>IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IRRShared.h">
+      <Filter>IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\LWOAnimation.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\LWOFileData.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\LWOLoader.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\LWSLoader.h">
+      <Filter>LWS</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MD2FileData.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MD2Loader.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MD2NormalTable.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MD3FileData.h">
+      <Filter>MD3</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MD3Loader.h">
+      <Filter>MD3</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MD5Loader.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MD5Parser.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MDCFileData.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MDCLoader.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MDCNormalTable.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MDLDefaultColorMap.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MDLFileData.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MDLLoader.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\NFFLoader.h">
+      <Filter>NFF</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\NDOLoader.h">
+      <Filter>NDO</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OFFLoader.h">
+      <Filter>OFF</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileData.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileImporter.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileMtlImporter.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileParser.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjTools.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjExporter.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreImporter.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreStructs.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreParsingUtils.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreBinarySerializer.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreXmlSerializer.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OpenGEXExporter.h">
+      <Filter>OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OpenGEXImporter.h">
+      <Filter>OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OpenGEXStructs.h">
+      <Filter>OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\PlyLoader.h">
+      <Filter>PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\PlyParser.h">
+      <Filter>PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\PlyExporter.h">
+      <Filter>PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MS3DLoader.h">
+      <Filter>MS3D</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\COBLoader.h">
+      <Filter>COB</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\COBScene.h">
+      <Filter>COB</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BlenderLoader.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BlenderDNA.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BlenderDNA.inl">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BlenderScene.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BlenderSceneGen.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BlenderIntermediate.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BlenderModifier.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BlenderBMesh.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BlenderTessellator.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCLoader.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCReaderGen.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCUtil.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\STEPFile.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\STEPFileReader.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\STEPFileEncoding.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\XGLLoader.h">
+      <Filter>XGL</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXCompileConfig.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXImporter.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXParser.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXTokenizer.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXImportSettings.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXConverter.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXUtil.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXDocument.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXProperties.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Q3DLoader.h">
+      <Filter>Q3D</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Q3BSPFileData.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Q3BSPFileParser.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Q3BSPFileImporter.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Q3BSPZipArchive.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\RawLoader.h">
+      <Filter>RAW</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SMDLoader.h">
+      <Filter>SMD</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\STLLoader.h">
+      <Filter>STL</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\STLExporter.h">
+      <Filter>STL</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\TerragenLoader.h">
+      <Filter>TERRAGEN</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\UnrealLoader.h">
+      <Filter>3D</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\XFileHelper.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\XFileImporter.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\XFileParser.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\XFileExporter.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\irrXMLWrapper.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\irrXML\CXMLReaderImpl.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\irrXML\heapsort.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\irrXML\irrArray.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\irrXML\irrString.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\irrXML\irrTypes.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\irrXML\irrXML.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\ConvertUTF\ConvertUTF.h">
+      <Filter>ConvertUTF</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\unzip\crypt.h">
+      <Filter>unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\unzip\ioapi.h">
+      <Filter>unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\unzip\unzip.h">
+      <Filter>unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\poly2tri\poly2tri\common\shapes.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\poly2tri\poly2tri\common\utils.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\poly2tri\poly2tri\sweep\advancing_front.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\poly2tri\poly2tri\sweep\cdt.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\poly2tri\poly2tri\sweep\sweep.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\clipper\clipper.hpp">
+      <Filter>Clipper</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\openddlparser\include\openddlparser\OpenDDLParser.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\openddlparser\include\openddlparser\OpenDDLParserUtils.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\openddlparser\include\openddlparser\OpenDDLCommon.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\openddlparser\include\openddlparser\OpenDDLExport.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\openddlparser\include\openddlparser\DDLNode.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\openddlparser\include\openddlparser\Value.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BoostWorkaround\boost\math\common_factor_rt.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BoostWorkaround\boost\foreach.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BoostWorkaround\boost\format.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BoostWorkaround\boost\scoped_array.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BoostWorkaround\boost\scoped_ptr.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BoostWorkaround\boost\shared_array.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BoostWorkaround\boost\shared_ptr.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BoostWorkaround\boost\make_shared.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BoostWorkaround\boost\static_assert.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BoostWorkaround\boost\tuple\tuple.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\anim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\ai_assert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\color4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\color4.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\cfileio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\material.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\matrix3x3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\matrix3x3.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\matrix4x4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\matrix4x4.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\postprocess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\quaternion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\quaternion.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\metadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\vector2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\vector2.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\vector3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\vector3.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\cimport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\importerdesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\Importer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\ProgressHandler.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\IOStream.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\IOSystem.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\cexport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\Exporter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\Compiler\pushpack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\Compiler\poppack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\Compiler\pstdint.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1D972429-A677-3367-AD2E-021D3B187CDC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{1EBB96C0-3D56-3C4C-84F9-2A5DB9C75A2F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compiler">
+      <UniqueIdentifier>{282DD30C-10BC-3132-AA0D-AAFC7BF620BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Boost">
+      <UniqueIdentifier>{AA8CC25F-69E1-31DF-8655-ED930CBBD051}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{53FE1025-F5B8-3E59-9F8B-BEB28E8B6F6C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{58F80572-2AF8-323B-A62C-7C73031696C7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DS">
+      <UniqueIdentifier>{6D09E03D-E1D2-301F-84EF-6C91FF50FBBE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AC">
+      <UniqueIdentifier>{1C7AB879-8EBA-38D3-B729-82E5ABF4969A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASE">
+      <UniqueIdentifier>{555C5778-F87D-3BA8-84D7-CDDB47A15316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASSBIN">
+      <UniqueIdentifier>{B2E26AD7-A64B-362D-BDCC-8F141BA995BC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASSXML">
+      <UniqueIdentifier>{AE600930-AB5F-33E7-A477-ED6CEC9D2561}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="B3D">
+      <UniqueIdentifier>{70971BF2-4E7A-399A-94B5-AE859EAB5C29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BVH">
+      <UniqueIdentifier>{9FCFF8A3-C876-3408-88A0-2A968960BF8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COLLADA">
+      <UniqueIdentifier>{2177F497-7B4C-3AD7-83B2-406CC58FFD28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXF">
+      <UniqueIdentifier>{7261EAD7-913A-3C43-9B37-9568101C7B63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSM">
+      <UniqueIdentifier>{5D2F7DF7-AA9F-34C9-8000-FA127BEA2DA8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HMP">
+      <UniqueIdentifier>{CE3778D9-0898-3E9D-9945-1BEF82D80945}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IRR">
+      <UniqueIdentifier>{3369C164-60DD-3177-B1C1-5E63479C46B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LWO">
+      <UniqueIdentifier>{C42A17AF-47C8-3E1E-A489-F1FEBD0E0E2B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LWS">
+      <UniqueIdentifier>{23C0AC95-73CC-3D9E-974F-508A5ED3CB3A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD2">
+      <UniqueIdentifier>{9CB20A80-B81D-3020-BAB2-5B98C2C4AB75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD3">
+      <UniqueIdentifier>{CB2CCCA4-8F50-30B8-88AF-5427C41C2B8D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD5">
+      <UniqueIdentifier>{57815F80-571F-3182-BEB7-67C02FEE112E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MDC">
+      <UniqueIdentifier>{C15D4229-09ED-3603-8F66-462750CF0158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MDL">
+      <UniqueIdentifier>{EC3C77D6-631A-3DC6-91CC-614F261BB2E5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MaterialSystem">
+      <UniqueIdentifier>{72A81D83-7CD4-3F87-BBA6-F03E998AB6AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NFF">
+      <UniqueIdentifier>{0561D5DC-7DEE-3965-AB25-8FD201C22B1F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NDO">
+      <UniqueIdentifier>{1DFBA0F5-1F17-3C4F-880E-13948E05F907}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OFF">
+      <UniqueIdentifier>{82C6526A-0C38-3753-AD15-32A15529796D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBJ">
+      <UniqueIdentifier>{AB9524D7-CCD6-3943-B043-8C57EE765723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OGRE">
+      <UniqueIdentifier>{C788719C-CEDD-3664-B531-F517F0449062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OPENGEX">
+      <UniqueIdentifier>{9C59F373-C3C2-3BDB-8014-8730ECEBF837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PLY">
+      <UniqueIdentifier>{A9635188-4A27-3BF6-832A-B4FDC43AAC6E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MS3D">
+      <UniqueIdentifier>{74C0EBCB-D966-3E1D-B787-AB5A63949720}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COB">
+      <UniqueIdentifier>{E840F751-80FE-31B5-8DD1-DECCD72116C0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BLEND">
+      <UniqueIdentifier>{FB2C44D2-EB76-3696-9DDE-0F910BAAF4BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IFC">
+      <UniqueIdentifier>{EE9D8539-7AE7-3449-8640-4638A8B34353}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XGL">
+      <UniqueIdentifier>{DE1E3426-C00B-396B-BE34-023EC0FE7CBE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBX">
+      <UniqueIdentifier>{C0EAF69C-D531-3332-BB3D-513873B84CE5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PostProcessing">
+      <UniqueIdentifier>{136AF7B7-5137-3081-BE31-68B01B3A704E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Q3D">
+      <UniqueIdentifier>{5DA2E0A1-2B86-3E4C-AA91-ACD095DE8734}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Q3BSP">
+      <UniqueIdentifier>{3738CD2D-4CB8-31F7-8316-58EC4031932B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RAW">
+      <UniqueIdentifier>{67790565-BF63-3734-ADC8-E4730EB7957A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SMD">
+      <UniqueIdentifier>{6AEFCB7D-D263-3386-BCFB-2DA79F6A1E94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STL">
+      <UniqueIdentifier>{BB7BD9F1-6EA9-3737-967E-FD2532550887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TERRAGEN">
+      <UniqueIdentifier>{95A496A9-62F6-34D2-8BCF-5F675C90C3E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3D">
+      <UniqueIdentifier>{08D11F9B-5420-31A1-8267-30178BFE33B9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X">
+      <UniqueIdentifier>{006AE46C-7563-3D4D-B2B7-AF7B1D354B3F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Step">
+      <UniqueIdentifier>{1373A48F-450D-3E21-AFBD-829360103E52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exporter">
+      <UniqueIdentifier>{247BA937-929D-3184-8D25-39F7D12935DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IrrXML">
+      <UniqueIdentifier>{9BAD4740-8D93-3867-844E-0BAD17483FA3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ConvertUTF">
+      <UniqueIdentifier>{E2368A08-5443-3349-82C5-8E03A3722921}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clipper">
+      <UniqueIdentifier>{6A7DDB57-FA79-3764-9BC0-715A139039D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Poly2Tri">
+      <UniqueIdentifier>{0170843F-3953-32E0-8A10-BD12242EF8A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unzip">
+      <UniqueIdentifier>{3B923F82-30D9-337B-8F85-EB077AD3821A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openddl_parser">
+      <UniqueIdentifier>{DFE014B6-742C-3D00-9C6C-83EB74113DE0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

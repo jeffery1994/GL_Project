@@ -1,0 +1,709 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3D87A0C1-AC4F-3F51-85E0-8B8070F1C9A3}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>assimp</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\GL\Voxel-Cone-Tracing\build\lib\assimp\code\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">assimp.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">assimp-vc130-mtd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\GL\Voxel-Cone-Tracing\build\lib\assimp\code\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">assimp.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">assimp-vc130-mt</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\GL\Voxel-Cone-Tracing\build\lib\assimp\code\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">assimp.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">assimp-vc130-mt</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\GL\Voxel-Cone-Tracing\build\lib\assimp\code\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">assimp.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">assimp-vc130-mt</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\GL\Voxel-Cone-Tracing\build\lib\assimp;G:\GL\Voxel-Cone-Tracing\lib\assimp\include;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BoostWorkaround;G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\zlib;G:\GL\Voxel-Cone-Tracing\build\lib\assimp\contrib\zlib;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\..\contrib\openddlparser\include;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\..\contrib\unzip;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;OPENDDL_NO_USE_CPP11;ASSIMP_BUILD_BOOST_WORKAROUND;ASSIMP_BUILD_NO_C4D_IMPORTER;ASSIMP_BUILD_DLL_EXPORT;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;OPENDDLPARSER_BUILD;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;OPENDDL_NO_USE_CPP11;ASSIMP_BUILD_BOOST_WORKAROUND;ASSIMP_BUILD_NO_C4D_IMPORTER;ASSIMP_BUILD_DLL_EXPORT;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;OPENDDLPARSER_BUILD;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\GL\Voxel-Cone-Tracing\build\lib\assimp;G:\GL\Voxel-Cone-Tracing\lib\assimp\include;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BoostWorkaround;G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\zlib;G:\GL\Voxel-Cone-Tracing\build\lib\assimp\contrib\zlib;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\..\contrib\openddlparser\include;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\..\contrib\unzip;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\GL\Voxel-Cone-Tracing\build\lib\assimp;G:\GL\Voxel-Cone-Tracing\lib\assimp\include;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BoostWorkaround;G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\zlib;G:\GL\Voxel-Cone-Tracing\build\lib\assimp\contrib\zlib;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\..\contrib\openddlparser\include;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\..\contrib\unzip;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\GL\Voxel-Cone-Tracing\build\lib\assimp;G:\GL\Voxel-Cone-Tracing\lib\assimp\include;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BoostWorkaround;G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\zlib;G:\GL\Voxel-Cone-Tracing\build\lib\assimp\contrib\zlib;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\..\contrib\openddlparser\include;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\..\contrib\unzip;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;OPENDDL_NO_USE_CPP11;ASSIMP_BUILD_BOOST_WORKAROUND;ASSIMP_BUILD_NO_C4D_IMPORTER;ASSIMP_BUILD_DLL_EXPORT;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;OPENDDLPARSER_BUILD;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;OPENDDL_NO_USE_CPP11;ASSIMP_BUILD_BOOST_WORKAROUND;ASSIMP_BUILD_NO_C4D_IMPORTER;ASSIMP_BUILD_DLL_EXPORT;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;OPENDDLPARSER_BUILD;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\GL\Voxel-Cone-Tracing\build\lib\assimp;G:\GL\Voxel-Cone-Tracing\lib\assimp\include;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BoostWorkaround;G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\zlib;G:\GL\Voxel-Cone-Tracing\build\lib\assimp\contrib\zlib;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\..\contrib\openddlparser\include;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\..\contrib\unzip;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\GL\Voxel-Cone-Tracing\build\lib\assimp;G:\GL\Voxel-Cone-Tracing\lib\assimp\include;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BoostWorkaround;G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\zlib;G:\GL\Voxel-Cone-Tracing\build\lib\assimp\contrib\zlib;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\..\contrib\openddlparser\include;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\..\contrib\unzip;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\GL\Voxel-Cone-Tracing\build\lib\assimp;G:\GL\Voxel-Cone-Tracing\lib\assimp\include;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BoostWorkaround;G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\zlib;G:\GL\Voxel-Cone-Tracing\build\lib\assimp\contrib\zlib;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\..\contrib\openddlparser\include;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\..\contrib\unzip;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;OPENDDL_NO_USE_CPP11;ASSIMP_BUILD_BOOST_WORKAROUND;ASSIMP_BUILD_NO_C4D_IMPORTER;ASSIMP_BUILD_DLL_EXPORT;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;OPENDDLPARSER_BUILD;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;OPENDDL_NO_USE_CPP11;ASSIMP_BUILD_BOOST_WORKAROUND;ASSIMP_BUILD_NO_C4D_IMPORTER;ASSIMP_BUILD_DLL_EXPORT;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;OPENDDLPARSER_BUILD;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\GL\Voxel-Cone-Tracing\build\lib\assimp;G:\GL\Voxel-Cone-Tracing\lib\assimp\include;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BoostWorkaround;G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\zlib;G:\GL\Voxel-Cone-Tracing\build\lib\assimp\contrib\zlib;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\..\contrib\openddlparser\include;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\..\contrib\unzip;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\GL\Voxel-Cone-Tracing\build\lib\assimp;G:\GL\Voxel-Cone-Tracing\lib\assimp\include;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BoostWorkaround;G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\zlib;G:\GL\Voxel-Cone-Tracing\build\lib\assimp\contrib\zlib;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\..\contrib\openddlparser\include;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\..\contrib\unzip;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\GL\Voxel-Cone-Tracing\build\lib\assimp;G:\GL\Voxel-Cone-Tracing\lib\assimp\include;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BoostWorkaround;G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\zlib;G:\GL\Voxel-Cone-Tracing\build\lib\assimp\contrib\zlib;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\..\contrib\openddlparser\include;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\..\contrib\unzip;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;OPENDDL_NO_USE_CPP11;ASSIMP_BUILD_BOOST_WORKAROUND;ASSIMP_BUILD_NO_C4D_IMPORTER;ASSIMP_BUILD_DLL_EXPORT;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;OPENDDLPARSER_BUILD;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;OPENDDL_NO_USE_CPP11;ASSIMP_BUILD_BOOST_WORKAROUND;ASSIMP_BUILD_NO_C4D_IMPORTER;ASSIMP_BUILD_DLL_EXPORT;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;OPENDDLPARSER_BUILD;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\GL\Voxel-Cone-Tracing\build\lib\assimp;G:\GL\Voxel-Cone-Tracing\lib\assimp\include;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BoostWorkaround;G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\zlib;G:\GL\Voxel-Cone-Tracing\build\lib\assimp\contrib\zlib;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\..\contrib\openddlparser\include;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\..\contrib\unzip;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\GL\Voxel-Cone-Tracing\build\lib\assimp;G:\GL\Voxel-Cone-Tracing\lib\assimp\include;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BoostWorkaround;G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\zlib;G:\GL\Voxel-Cone-Tracing\build\lib\assimp\contrib\zlib;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\..\contrib\openddlparser\include;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\..\contrib\unzip;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule G:/GL/Voxel-Cone-Tracing/lib/assimp/code/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\CMake\bin\cmake.exe -HG:/GL/Voxel-Cone-Tracing -BG:/GL/Voxel-Cone-Tracing/build --check-stamp-file G:/GL/Voxel-Cone-Tracing/build/lib/assimp/code/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:/GL/Voxel-Cone-Tracing/lib/assimp/code/CMakeLists.txt;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\CMakeLists.txt;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">G:\GL\Voxel-Cone-Tracing\build\lib\assimp\code\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule G:/GL/Voxel-Cone-Tracing/lib/assimp/code/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\CMake\bin\cmake.exe -HG:/GL/Voxel-Cone-Tracing -BG:/GL/Voxel-Cone-Tracing/build --check-stamp-file G:/GL/Voxel-Cone-Tracing/build/lib/assimp/code/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:/GL/Voxel-Cone-Tracing/lib/assimp/code/CMakeLists.txt;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\CMakeLists.txt;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">G:\GL\Voxel-Cone-Tracing\build\lib\assimp\code\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule G:/GL/Voxel-Cone-Tracing/lib/assimp/code/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\CMake\bin\cmake.exe -HG:/GL/Voxel-Cone-Tracing -BG:/GL/Voxel-Cone-Tracing/build --check-stamp-file G:/GL/Voxel-Cone-Tracing/build/lib/assimp/code/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:/GL/Voxel-Cone-Tracing/lib/assimp/code/CMakeLists.txt;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\CMakeLists.txt;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">G:\GL\Voxel-Cone-Tracing\build\lib\assimp\code\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule G:/GL/Voxel-Cone-Tracing/lib/assimp/code/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\CMake\bin\cmake.exe -HG:/GL/Voxel-Cone-Tracing -BG:/GL/Voxel-Cone-Tracing/build --check-stamp-file G:/GL/Voxel-Cone-Tracing/build/lib/assimp/code/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:/GL/Voxel-Cone-Tracing/lib/assimp/code/CMakeLists.txt;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\CMakeLists.txt;G:\GL\Voxel-Cone-Tracing\lib\assimp\code\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">G:\GL\Voxel-Cone-Tracing\build\lib\assimp\code\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Assimp.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\fast_atof.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\qnan.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BaseImporter.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BaseImporter.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BaseProcess.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BaseProcess.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Importer.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ScenePrivate.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\PostStepRegistry.cpp"  />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ImporterRegistry.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ByteSwapper.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\DefaultProgressHandler.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\DefaultIOStream.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\DefaultIOStream.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\DefaultIOSystem.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\DefaultIOSystem.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\CInterfaceIOWrapper.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Hash.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Importer.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFF.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MemoryIOWrapper.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ParsingUtils.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\StreamReader.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\StreamWriter.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\StringComparison.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SGSpatialSort.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SGSpatialSort.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\VertexTriangleAdjacency.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\VertexTriangleAdjacency.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\GenericProperty.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SpatialSort.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SpatialSort.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SceneCombiner.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SceneCombiner.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ScenePreprocessor.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ScenePreprocessor.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SkeletonMeshBuilder.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SkeletonMeshBuilder.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SplitByBoneCountProcess.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SplitByBoneCountProcess.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SmoothingGroups.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\StandardShapes.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\StandardShapes.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\TargetAnimation.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\TargetAnimation.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\RemoveComments.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\RemoveComments.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Subdivision.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Subdivision.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Vertex.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\LineSplitter.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\TinyFormatter.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Profiler.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\LogAux.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Bitmap.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Bitmap.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\XMLTools.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Version.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\DefaultLogger.hpp" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\LogStream.hpp" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\Logger.hpp" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\NullLogger.hpp" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Win32DebugLogStream.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\DefaultLogger.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FileLogStream.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\StdOStreamLogStream.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Exporter.cpp"  />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\AssimpCExport.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BlobIOSystem.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\CalcTangentsProcess.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\CalcTangentsProcess.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ComputeUVMappingProcess.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ComputeUVMappingProcess.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ConvertToLHProcess.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ConvertToLHProcess.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FindDegenerates.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FindDegenerates.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FindInstancesProcess.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FindInstancesProcess.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FindInvalidDataProcess.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FindInvalidDataProcess.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FixNormalsStep.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FixNormalsStep.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\GenFaceNormalsProcess.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\GenFaceNormalsProcess.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\GenVertexNormalsProcess.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\GenVertexNormalsProcess.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\PretransformVertices.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\PretransformVertices.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ImproveCacheLocality.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ImproveCacheLocality.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\JoinVerticesProcess.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\JoinVerticesProcess.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\LimitBoneWeightsProcess.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\LimitBoneWeightsProcess.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\RemoveRedundantMaterials.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\RemoveRedundantMaterials.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\RemoveVCProcess.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\RemoveVCProcess.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SortByPTypeProcess.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SortByPTypeProcess.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SplitLargeMeshes.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SplitLargeMeshes.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\TextureTransform.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\TextureTransform.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\TriangulateProcess.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\TriangulateProcess.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ValidateDataStructure.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ValidateDataStructure.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OptimizeGraph.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OptimizeGraph.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OptimizeMeshes.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OptimizeMeshes.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\DeboneProcess.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\DeboneProcess.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ProcessHelper.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ProcessHelper.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\PolyTools.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MakeVerboseFormat.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MakeVerboseFormat.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MaterialSystem.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MaterialSystem.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\StepExporter.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\StepExporter.cpp"  />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\3DSConverter.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\3DSHelper.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\3DSLoader.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\3DSLoader.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\3DSExporter.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\3DSExporter.cpp"  />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ACLoader.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ACLoader.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ASELoader.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ASELoader.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ASEParser.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ASEParser.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\AssbinExporter.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\AssbinExporter.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\AssbinLoader.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\AssbinLoader.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\AssxmlExporter.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\AssxmlExporter.cpp"  />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\B3DImporter.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\B3DImporter.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BVHLoader.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BVHLoader.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaHelper.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaLoader.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaLoader.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaParser.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaParser.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaExporter.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ColladaExporter.cpp"  />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\DXFLoader.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\DXFLoader.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\DXFHelper.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\CSMLoader.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\CSMLoader.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\HMPFileData.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\HMPLoader.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\HMPLoader.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\HalfLifeFileData.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IRRLoader.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IRRLoader.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IRRMeshLoader.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IRRMeshLoader.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IRRShared.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IRRShared.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\LWOAnimation.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\LWOAnimation.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\LWOBLoader.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\LWOFileData.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\LWOLoader.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\LWOLoader.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\LWOMaterial.cpp"  />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\LWSLoader.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\LWSLoader.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MD2FileData.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MD2Loader.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MD2Loader.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MD2NormalTable.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MD3FileData.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MD3Loader.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MD3Loader.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MD5Loader.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MD5Loader.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MD5Parser.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MD5Parser.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MDCFileData.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MDCLoader.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MDCLoader.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MDCNormalTable.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MDLDefaultColorMap.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MDLFileData.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MDLLoader.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MDLLoader.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MDLMaterialLoader.cpp"  />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\NFFLoader.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\NFFLoader.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\NDOLoader.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\NDOLoader.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OFFLoader.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OFFLoader.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileData.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileImporter.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileImporter.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileMtlImporter.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileMtlImporter.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileParser.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjFileParser.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjTools.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjExporter.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\ObjExporter.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreImporter.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreStructs.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreParsingUtils.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreBinarySerializer.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreXmlSerializer.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreImporter.cpp"  />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreStructs.cpp"  />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreBinarySerializer.cpp"  />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreXmlSerializer.cpp"  />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OgreMaterial.cpp"  />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OpenGEXExporter.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OpenGEXExporter.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OpenGEXImporter.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OpenGEXImporter.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\OpenGEXStructs.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\PlyLoader.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\PlyLoader.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\PlyParser.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\PlyParser.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\PlyExporter.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\PlyExporter.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MS3DLoader.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\MS3DLoader.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\COBLoader.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\COBLoader.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\COBScene.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BlenderLoader.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BlenderLoader.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BlenderDNA.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BlenderDNA.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BlenderDNA.inl" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BlenderScene.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BlenderScene.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BlenderSceneGen.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BlenderIntermediate.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BlenderModifier.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BlenderModifier.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BlenderBMesh.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BlenderBMesh.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BlenderTessellator.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BlenderTessellator.cpp"  />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCLoader.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCLoader.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCReaderGen.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCReaderGen.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCUtil.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCUtil.cpp"  />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCGeometry.cpp"  />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCMaterial.cpp"  />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCProfile.cpp"  />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCCurve.cpp"  />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCBoolean.cpp"  />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\IFCOpenings.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\STEPFile.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\STEPFileReader.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\STEPFileReader.cpp"  />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\STEPFileEncoding.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\STEPFileEncoding.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\XGLLoader.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\XGLLoader.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXImporter.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXCompileConfig.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXImporter.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXParser.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXParser.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXTokenizer.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXTokenizer.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXImportSettings.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXConverter.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXConverter.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXUtil.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXUtil.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXDocument.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXDocument.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXProperties.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXProperties.cpp"  />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXMeshGeometry.cpp"  />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXMaterial.cpp"  />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXModel.cpp"  />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXAnimation.cpp"  />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXNodeAttribute.cpp"  />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXDeformer.cpp"  />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXBinaryTokenizer.cpp"  />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\FBXDocumentUtil.cpp"  />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Q3DLoader.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Q3DLoader.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Q3BSPFileData.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Q3BSPFileParser.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Q3BSPFileParser.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Q3BSPFileImporter.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Q3BSPFileImporter.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Q3BSPZipArchive.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\Q3BSPZipArchive.cpp"  />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\RawLoader.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\RawLoader.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SMDLoader.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\SMDLoader.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\STLLoader.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\STLLoader.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\STLExporter.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\STLExporter.cpp"  />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\TerragenLoader.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\TerragenLoader.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\UnrealLoader.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\UnrealLoader.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\XFileHelper.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\XFileImporter.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\XFileImporter.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\XFileParser.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\XFileParser.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\XFileExporter.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\XFileExporter.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\irrXMLWrapper.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\irrXML\CXMLReaderImpl.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\irrXML\heapsort.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\irrXML\irrArray.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\irrXML\irrString.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\irrXML\irrTypes.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\irrXML\irrXML.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\irrXML\irrXML.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\ConvertUTF\ConvertUTF.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\ConvertUTF\ConvertUTF.c" >
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\unzip\crypt.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\unzip\ioapi.c" >
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\unzip\ioapi.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\unzip\unzip.c" >
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\unzip\unzip.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\poly2tri\poly2tri\common\shapes.cc"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\poly2tri\poly2tri\common\shapes.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\poly2tri\poly2tri\common\utils.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\poly2tri\poly2tri\sweep\advancing_front.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\poly2tri\poly2tri\sweep\advancing_front.cc"  />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\poly2tri\poly2tri\sweep\cdt.cc"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\poly2tri\poly2tri\sweep\cdt.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\poly2tri\poly2tri\sweep\sweep.cc"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\poly2tri\poly2tri\sweep\sweep.h" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.cc"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\clipper\clipper.hpp" />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\clipper\clipper.cpp"  />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\openddlparser\code\OpenDDLParser.cpp"  />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\openddlparser\code\DDLNode.cpp"  />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\openddlparser\code\OpenDDLCommon.cpp"  />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\openddlparser\code\OpenDDLExport.cpp"  />
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\openddlparser\code\Value.cpp"  />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\openddlparser\include\openddlparser\OpenDDLParser.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\openddlparser\include\openddlparser\OpenDDLParserUtils.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\openddlparser\include\openddlparser\OpenDDLCommon.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\openddlparser\include\openddlparser\OpenDDLExport.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\openddlparser\include\openddlparser\DDLNode.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\contrib\openddlparser\include\openddlparser\Value.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BoostWorkaround\boost\math\common_factor_rt.hpp" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BoostWorkaround\boost\foreach.hpp" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BoostWorkaround\boost\format.hpp" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BoostWorkaround\boost\scoped_array.hpp" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BoostWorkaround\boost\scoped_ptr.hpp" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BoostWorkaround\boost\shared_array.hpp" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BoostWorkaround\boost\shared_ptr.hpp" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BoostWorkaround\boost\make_shared.hpp" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BoostWorkaround\boost\static_assert.hpp" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\code\BoostWorkaround\boost\tuple\tuple.hpp" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\anim.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\ai_assert.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\camera.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\color4.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\color4.inl" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\config.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\defs.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\cfileio.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\light.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\material.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\material.inl" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\matrix3x3.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\matrix3x3.inl" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\matrix4x4.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\matrix4x4.inl" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\mesh.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\postprocess.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\quaternion.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\quaternion.inl" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\scene.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\metadata.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\texture.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\types.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\vector2.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\vector2.inl" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\vector3.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\vector3.inl" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\version.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\cimport.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\importerdesc.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\Importer.hpp" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\ProgressHandler.hpp" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\IOStream.hpp" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\IOSystem.hpp" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\cexport.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\Exporter.hpp" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\Compiler\pushpack1.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\Compiler\poppack1.h" />
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\lib\assimp\include\assimp\Compiler\pstdint.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="G:\GL\Voxel-Cone-Tracing\build\ZERO_CHECK.vcxproj">
+      <Project>{7A032ACA-7AEC-39A9-8F41-EDFE182A8772}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="G:\GL\Voxel-Cone-Tracing\build\lib\assimp\contrib\zlib\zlibstatic.vcxproj">
+      <Project>{A437B55E-2F31-301D-8915-C66D228D161D}</Project>
+      <Name>zlibstatic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\src\Camera.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\src\Controls.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\src\HighResClock.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\src\Material.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\src\Mesh.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\src\Object.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\src\Shader.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\src\VCTApplication.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GL\Voxel-Cone-Tracing\src\main.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\include\Camera.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\include\Controls.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\include\HighResClock.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\include\Material.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\include\Mesh.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\include\Object.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\include\Shader.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\include\Texture.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GL\Voxel-Cone-Tracing\include\VCTApplication.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="G:\GL\Voxel-Cone-Tracing\shaders\quad.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="G:\GL\Voxel-Cone-Tracing\shaders\renderVoxels.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="G:\GL\Voxel-Cone-Tracing\shaders\shadow.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="G:\GL\Voxel-Cone-Tracing\shaders\shadowtest.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="G:\GL\Voxel-Cone-Tracing\shaders\standard.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="G:\GL\Voxel-Cone-Tracing\shaders\voxelization.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="G:\GL\Voxel-Cone-Tracing\shaders\renderVoxels.geom">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="G:\GL\Voxel-Cone-Tracing\shaders\voxelization.geom">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="G:\GL\Voxel-Cone-Tracing\shaders\quad.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="G:\GL\Voxel-Cone-Tracing\shaders\renderVoxels.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="G:\GL\Voxel-Cone-Tracing\shaders\shadow.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="G:\GL\Voxel-Cone-Tracing\shaders\standard.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="G:\GL\Voxel-Cone-Tracing\shaders\voxelization.vert">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{22EE7D98-2D00-3915-8E63-5770974429DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{0AEFFF78-1386-3FCC-B405-40D4655689C2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{D631BEB8-C414-33F9-81D7-08936DE161E1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
