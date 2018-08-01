@@ -1,4 +1,0 @@
-﻿  Building Custom Rule E:/Global-illumination/GL_Project/lib/glew/CMakeLists.txt
-  CMake does not need to re-run because E:/Global-illumination/GL_Project/build/lib/glew/CMakeFiles/generate.stamp is up-to-date.
-  glew.c
-  libglew_static.vcxproj -> E:\Global-illumination\GL_Project\build\lib\Release\glew.lib
